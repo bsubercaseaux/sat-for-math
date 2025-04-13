@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `SAT4Math`,
-    siteUrl: `https://bsubercaseaux.github.io/sat-for-math/material`
+    siteUrl: `https://bsubercaseaux.github.io/sat-for-math`
   },
   plugins: [
     `gatsby-plugin-emotion`, 
