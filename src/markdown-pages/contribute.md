@@ -6,6 +6,8 @@ slug: "/contribute"
 
 ## How to Contribute in General
 
+For now, email Bernardo Subercaseaux at bersub@cmu.edu.
+<!-- 
 The sources and data for this webpage are available on [GitHub](https://github.com/algorithms-with-predictions/algorithms-with-predictions.github.io).
 It uses [Gatsby](https://www.gatsbyjs.com/) for static site rendering and is hosted via [GitHub Pages](https://pages.github.com/).
 
@@ -78,4 +80,4 @@ and finally run
 
 ```bash
 yarn develop
-```
+``` -->

@@ -48,3 +48,13 @@ html {
     opacity: 1;
   }
 }
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+

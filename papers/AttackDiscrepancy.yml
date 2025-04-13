@@ -1,0 +1,16 @@
+title: A SAT Attack on the Erdős Discrepancy Conjecture
+authors: Konev, Lisitsa
+labels: []
+publications:
+- name: arXiv
+  url: ''
+  year: 2014
+  bibtex: |
+    @misc{konev2014sat,
+      title = {A {{SAT}} Attack on the Erdos Discrepancy Conjecture},
+      author = {Konev, Boris and Lisitsa, Alexei},
+      year = {2014},
+      eprint = {1402.2184},
+      primaryclass = {cs.DM},
+      archiveprefix = {arXiv}
+    }
