@@ -12,7 +12,7 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark;
   return (
     <>
-      <title>ALPS - {frontmatter.title}</title>
+      <title>SAT4Math - {frontmatter.title}</title>
       <ThemeProvider theme={theme}>
         <Layout>
           <Container>

@@ -21,7 +21,7 @@ const Header = () => {
           component="div"
           sx={{ ml: 2, mr: 4, fontWeight: "bold" }}
         >
-          Algorithms with Predictions
+          Satisfiability for Mathematics
         </Typography>
         {pages.map((page) => (
           <Button

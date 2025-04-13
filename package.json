@@ -1,9 +1,9 @@
 {
-  "name": "algorithms-with-predictions",
+  "name": "sat-for-math",
   "version": "1.0.0",
   "private": true,
-  "description": "algorithms-with-predictions",
-  "author": "Alexander Lindermayr",
+  "description": "sat-for-math",
+  "author": "Bernardo Subercaseaux",
   "keywords": [
     "gatsby"
   ],

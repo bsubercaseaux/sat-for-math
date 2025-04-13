@@ -10,7 +10,7 @@ import data from "../../papers.json";
 const IndexPage = () => {
   return (
     <div>
-      <title>ALPS</title>
+      <title>SAT4Math</title>
       <ThemeProvider theme={theme}>
         <Layout>
           <PaperList data={data} />
