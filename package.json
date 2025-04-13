@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "format": "prettier --write src/**/*.js && prettier --write scripts/*js",
     "clean": "gatsby clean",
-    "deploy": "node scripts/composeData.js && gatsby build && gh-pages -d public -b deploy"
+    "deploy": "node scripts/composeData.js && gatsby build --prefix-paths && gh-pages -d public -b deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/sat-for-math`,
   siteMetadata: {
     title: `SAT4Math`,
     siteUrl: `https://bsubercaseaux.github.io/sat-for-math`
