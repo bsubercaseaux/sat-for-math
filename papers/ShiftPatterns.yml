@@ -2,7 +2,7 @@ title: Avoiding Monochromatic Rectangles Using Shift Patterns
 authors: Liu, Chew, Heule
 labels: []
 publications:
-- name: Proceedings of the International Symposium on Combinatorial Search
+- name: SOCS  
   url: ''
   year: 2021
   bibtex: |
