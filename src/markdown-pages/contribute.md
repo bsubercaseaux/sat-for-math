@@ -6,7 +6,15 @@ slug: "/contribute"
 
 ## How to Contribute in General
 
-For now, email Bernardo Subercaseaux at bersub@cmu.edu.
+The main ways to contribute are:
+
+- Suggesting papers to be added to the list.
+- Correcting references that may be wrong or incomplete.
+- Suggesting new features or improvements to the website.
+
+For now, email Bernardo Subercaseaux at bersub@cmu.edu. The idea is to have soon a pull-request system for contributions, or some other public way to contribute.
+
+
 <!-- 
 The sources and data for this webpage are available on [GitHub](https://github.com/algorithms-with-predictions/algorithms-with-predictions.github.io).
 It uses [Gatsby](https://www.gatsbyjs.com/) for static site rendering and is hosted via [GitHub Pages](https://pages.github.com/).

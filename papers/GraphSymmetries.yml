@@ -1,0 +1,23 @@
+title: Breaking Symmetries in Graph Representation
+authors: Codish, Miller, Prosser, Stuckey
+labels:
+- graph theory
+publications:
+- name: IJCAI
+  url: https://www.ijcai.org/Proceedings/13/Papers/083.pdf
+  year: 2013
+  dblp_key: conf/ijcai/CodishMPS13
+  bibtex: "@inproceedings{codishBreakingSymmetriesGraph2013,\n  title = {Breaking\
+    \ Symmetries in Graph Representation},\n  booktitle = {Proceedings of the {{Twenty-Third}}\
+    \ International Joint Conference on {{Artificial Intelligence}}},\n  author =\
+    \ {Codish, Michael and Miller, Alice and Prosser, Patrick and Stuckey, Peter J.},\n\
+    \  year = {2013},\n  month = aug,\n  series = {{{IJCAI}} '13},\n  pages = {510--516},\n\
+    \  publisher = {AAAI Press},\n  address = {Beijing, China},\n  urldate = {2025-05-07},\n\
+    \  abstract = {There are many complex combinatorial problems which involve searching\
+    \ for an undirected graph satisfying a certain property. These problems are often\
+    \ highly challenging because of the large number of isomorphic representations\
+    \ of a possible solution. In this paper we introduce novel, effective and compact,\
+    \ symmetry breaking constraints for undirected graph search. While incomplete,\
+    \ these prove highly beneficial in pruning the search for a graph. We illustrate\
+    \ the application of symmetry breaking in graph representation to resolve several\
+    \ open instances in extremal graph theory.},\n  isbn = {978-1-57735-633-2}\n}\n"

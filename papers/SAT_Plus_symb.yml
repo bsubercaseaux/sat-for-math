@@ -1,17 +1,14 @@
-title: >-
-  When Satisfiability Solving Meets Symbolic Computation
-authors: ''
-labels: []
+title: When Satisfiability Solving Meets Symbolic Computation
+authors: Bright, Kotsireas, Ganesh
+labels:
+- survey
 publications:
-- name: CACM
-  url: ''
+- name: Commun. ACM
+  url: https://doi.org/10.1145/3500921
   year: 2022
-  bibtex: |
-    @misc{WhenSatisfiabilitySolving2022,
-      title = {When {{Satisfiability Solving Meets Symbolic Computation}} -- {{Communications}} of the {{ACM}}},
-      year = {2022},
-      month = jul,
-      urldate = {2025-04-13},
-      langid = {american},
-      file = {/Users/bsuberca/Zotero/storage/5L6WABI9/when-satisfiability-solving-meets-symbolic-computation.html}
-    }
+  dblp_key: journals/cacm/BrightKG22
+  bibtex: "@article{DBLP:journals/cacm/BrightKG22,\n  author       = {Curtis Bright\
+    \ and\n                  Ilias S. Kotsireas and\n                  Vijay Ganesh},\n\
+    \  title        = {When satisfiability solving meets symbolic computation},\n\
+    \  journal      = {Commun. {ACM}},\n  volume       = {65},\n  number       = {7},\n\
+    \  pages        = {64--72},\n  year         = {2022}\n}\n\n"

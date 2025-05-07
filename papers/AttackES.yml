@@ -1,24 +1,14 @@
-title: A SAT Attack on the Erdős-Szekeres Conjecture
+title: "A SAT Attack on the Erd\u0151s-Szekeres Conjecture"
 authors: Balko, Valtr
 labels:
 - discrete geometry
+- Ramsey theory
 publications:
-- name: European Journal of Combinatorics
-  url: ''
+- name: Eur. J. Comb.
+  url: https://doi.org/10.1016/j.ejc.2017.06.010
   year: 2017
-  bibtex: |
-    @article{balkoSATAttackErdosSzekeres2017,
-      title = {A {{SAT}} Attack on the {{Erd{\H o}s}}--{{Szekeres}} Conjecture},
-      author = {Balko, Martin and Valtr, Pavel},
-      year = {2017},
-      month = dec,
-      journal = {European Journal of Combinatorics},
-      series = {Selected Papers of {{EuroComb15}}},
-      volume = {66},
-      pages = {13--23},
-      issn = {0195-6698},
-      doi = {10.1016/j.ejc.2017.06.010},
-      urldate = {2025-04-12},
-      abstract = {A classical conjecture of Erd{\H o}s and Szekeres states that, for every integer k{$\geq$}2, every set of 2k-2+1 points in the plane in general position contains k points in convex position. In 2006, Peters and Szekeres introduced the following stronger conjecture: every red-blue coloring of the edges of the ordered complete 3-uniform hypergraph on 2k-2+1 vertices contains an ordered subhypergraph with k vertices and k-2 edges, which is a union of a red monotone path and a blue monotone path that are vertex disjoint except for their two common end-vertices. Applying a state of art SAT solver, we refute the conjecture of Peters and Szekeres. We also apply techniques of Erd{\H o}s, Tuza, and Valtr to refine the Erd{\H o}s--Szekeres conjecture in order to tackle it with SAT solvers.},
-      file = {/Users/bsuberca/Zotero/storage/ZIN8QQDH/S0195669817300847.html}
-    }
+  dblp_key: journals/ejc/BalkoV17
+  bibtex: "@article{DBLP:journals/ejc/BalkoV17,\n  author       = {Martin Balko and\n\
+    \                  Pavel Valtr},\n  title        = {A {SAT} attack on the Erd{\\\
+    H{o}}s-Szekeres conjecture},\n  journal      = {Eur. J. Comb.},\n  volume    \
+    \   = {66},\n  pages        = {13--23},\n  year         = {2017}\n}\n\n"

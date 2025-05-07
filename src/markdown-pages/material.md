@@ -9,22 +9,18 @@ slug: "/material"
 
 To be added.
 
-## Surveys
+## Surveys or Overviews
 
-To be added.
+- [https://cacm.acm.org/research/the-silent-revolution-of-sat/](The Silent (R)evolution of SAT), by Johannes K. Fichte, Daniel Le Berre, Markus Hecher, and Stefan Szeider. CACM 2023.
+- [https://cacm.acm.org/research/when-satisfiability-solving-meets-symbolic-computation/](When Satisfiability Solving Meets Symbolic Computation), by Curtis Bright, Ilias Kotsireas, and Vijay Ganesh. CACM 2022.
+- [https://cacm.acm.org/research/the-science-of-brute-force/](The Science of Brute Force), by Marijn Heule and Oliver Kullmann. CACM 2017.
 
 ## Tutorials
 
-To be added.
+A series of hands-on tutorials for SAT-solving towards combinatorial problems is available at [https://bsubercaseaux.github.io/tutorials/](https://bsubercaseaux.github.io/tutorials/). Those tutorials were co-authored by Bernardo Subercaseaux and Marijn Heule.
+
+A book with plenty of examples, both for SAT and SMT solving, is available at [https://smt.st/](https://smt.st/), thanks to Dennis Yurichev.
 
 ## Workshops
 
 - **Simons + SLMath**: [AI For Math and TCS](https://simons.berkeley.edu/workshops/simons-institute-theory-computing-slmath-joint-workshop-ai-mathematics-theoretical), April 2025.
-<!-- - **TTIC Summer Workshop Program** [Learning-Augmented Algorithms](https://www.ttic.edu/summer-workshop-2024/), _August '24_
-- **SIGMETRICS** [Workshop on Learning-augmented Algorithms: Theory and Applications](https://learning-augmented-algorithms.github.io/), _June '23, '24_
-- **FSTTCS'22** [Workshop on Algorithms under Uncertainty](https://sites.google.com/view/fsttcs22-algo-workshop?pli=1), _December 2022_
-- **STOC'22** [Workshop on Algorithms with Predictions](https://theory.stanford.edu/~sergei/stoc2022alps.html), _June 2022_
-- **ALPS'22** [Workshop on Algorithms with Predictions](https://alps2022.epfl.ch/), _May 2022_ [[slides]](https://alps2022.epfl.ch/schedule/)
-- **FODSI'21** [MACHINE LEARNING FOR ALGORITHMS (ML4A)](https://fodsi.us/ml4a.html), _July 2021_
-- **STOC'20** [Workshop on Algorithms with Predictions](https://www.mit.edu/~vakilian/stoc-workshop.html), _June 2020_
-- **TTI'19** [Workshop on Learning-Based Algorithms](http://www.mit.edu/~vakilian/ttic-workshop.html), _August 2019_ -->

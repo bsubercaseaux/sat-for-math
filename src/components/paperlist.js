@@ -3,6 +3,7 @@ import {
   Divider,
   Select,
   Slider,
+  Grid,
   Stack,
   Typography,
   Chip,
@@ -81,7 +82,7 @@ const TYPE_LABELS = [
   // "survey",
 ];
 const PRIOR_LABEL = "prior/related work";
-let SPECIAL_LABELS = [...TYPE_LABELS, PRIOR_LABEL];
+let SPECIAL_LABELS = [...TYPE_LABELS];// [...TYPE_LABELS, PRIOR_LABEL];
 
 const PaperList = ({ data }) => {
   // preprocessing
@@ -146,8 +147,8 @@ const PaperList = ({ data }) => {
           size="small"
           label={text}
           key={text}
-          variant={"arXiv" === name ? "outlined" : "filled"}
-          color="pubLabels"
+          variant={"arXiv" === name ? "filled" : "filled"}
+          color={"arXiv" === name ?  "typeLabels" :  "pubLabels" }
           onClick={() => ("url" in pub ? openInNewTab(pub.url) : {})}
         />
       );
@@ -170,9 +171,9 @@ const PaperList = ({ data }) => {
                 <TitleText>{paper.title}</TitleText>
               )}
               <AuthorText>{paper.authors}</AuthorText>
-              <Stack direction="row" spacing={1}>
+              <Grid spacing={1} justifyContent={"center"}>
                 {paperChips(paper)}
-              </Stack>
+              </Grid>
             </Stack>
           }
         />
@@ -228,7 +229,7 @@ const PaperList = ({ data }) => {
           alignItems="center"
           justifyContent={"flex-start"}
         >
-          <Box sx={{ width: 350, pr: 2 }}>
+          <Box sx={{ width: 650, pr: 2 }}>
             <Slider
               value={yearsIdx}
               step={null}
@@ -275,13 +276,14 @@ const PaperList = ({ data }) => {
           <Divider orientation={"vertical"} flexItem />
           <Stack
             flexWrap={"wrap"}
+            width={200}
             pl={1}
             pt={1}
             spacing={1}
             direction="column" //"row", lg: "column" }}
           >
-            {SPECIAL_LABELS.map((l) => labelChip(l, true))}
-            <Divider orientation={"horizontal"} flexItem />
+            {/* {SPECIAL_LABELS.map((l) => labelChip(l, true))}
+            <Divider orientation={"horizontal"} flexItem /> */}
             {distinctLabels.map((l) => labelChip(l, true))}
           </Stack>
         </Box>

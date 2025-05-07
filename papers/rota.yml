@@ -1,28 +1,22 @@
 title: A SAT Attack on Rota's Basis Conjecture
 authors: Kirchweger, Scheucher, Szeider
-labels: []
+labels:
+- matroids
+- famous conjectures
 publications:
 - name: SAT
-  url: null
   year: 2022
-  month: null
-  day: null
-  bibtex: |+
-    @inproceedings{kirchwegerSATAttackRotas2022,
-      title = {A {{SAT Attack}} on {{Rota}}'s {{Basis Conjecture}}},
-      booktitle = {25th {{International Conference}} on {{Theory}} and {{Applications}} of {{Satisfiability Testing}} ({{SAT}} 2022)},
-      author = {Kirchweger, Markus and Scheucher, Manfred and Szeider, Stefan},
-      editor = {Meel, Kuldeep S. and Strichman, Ofer},
-      year = {2022},
-      series = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},
-      volume = {236},
-      pages = {4:1--4:18},
-      publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
-      address = {Dagstuhl, Germany},
-      issn = {1868-8969},
-      doi = {10.4230/LIPIcs.SAT.2022.4},
-      urldate = {2025-04-12},
-      isbn = {978-3-95977-242-6},
-      keywords = {dynamic symmetry breaking,matroid,Rota's basis conjecture,SAT modulo Symmetry (SMS)},
-      file = {/Users/bsuberca/Zotero/storage/SJMYWFWP/Kirchweger et al. - 2022 - A SAT Attack on Rota’s Basis Conjecture.pdf;/Users/bsuberca/Zotero/storage/5IBQK5XF/LIPIcs.SAT.2022.html}
-    }
+  dblp_key: conf/sat/KirchwegerSS22
+  bibtex: "@inproceedings{kirchwegerSATAttackRotas2022,\n  title = {A {{SAT Attack}}\
+    \ on {{Rota}}'s {{Basis Conjecture}}},\n  booktitle = {25th {{International Conference}}\
+    \ on {{Theory}} and {{Applications}} of {{Satisfiability Testing}} ({{SAT}} 2022)},\n\
+    \  author = {Kirchweger, Markus and Scheucher, Manfred and Szeider, Stefan},\n\
+    \  editor = {Meel, Kuldeep S. and Strichman, Ofer},\n  year = {2022},\n  series\
+    \ = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},\n\
+    \  volume = {236},\n  pages = {4:1--4:18},\n  publisher = {Schloss Dagstuhl --\
+    \ Leibniz-Zentrum f{\\\"u}r Informatik},\n  address = {Dagstuhl, Germany},\n \
+    \ issn = {1868-8969},\n  doi = {10.4230/LIPIcs.SAT.2022.4},\n  urldate = {2025-04-12},\n\
+    \  isbn = {978-3-95977-242-6},\n  keywords = {dynamic symmetry breaking,matroid,Rota's\
+    \ basis conjecture,SAT modulo Symmetry (SMS)},\n  file = {/Users/bsuberca/Zotero/storage/SJMYWFWP/Kirchweger\
+    \ et al. - 2022 - A SAT Attack on Rota\u2019s Basis Conjecture.pdf;/Users/bsuberca/Zotero/storage/5IBQK5XF/LIPIcs.SAT.2022.html}\n\
+    }\n"

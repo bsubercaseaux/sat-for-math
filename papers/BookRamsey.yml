@@ -1,0 +1,25 @@
+title: Lower Bounds for Book Ramsey Numbers
+authors: Wesley
+labels:
+- Ramsey theory
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2410.03625
+  year: 2024
+  month: 10
+  day: 4
+  bibtex: "@misc{wesleyLowerBoundsBook2024,\n  title = {Lower {{Bounds}} for {{Book\
+    \ Ramsey Numbers}}},\n  author = {Wesley, William J.},\n  year = {2024},\n  month\
+    \ = oct,\n  number = {arXiv:2410.03625},\n  eprint = {2410.03625},\n  primaryclass\
+    \ = {math},\n  publisher = {arXiv},\n  doi = {10.48550/arXiv.2410.03625},\n  urldate\
+    \ = {2025-04-16},\n  abstract = {We prove new bounds for Ramsey numbers for book\
+    \ graphs \\$B\\_n\\$. In particular, we show that \\$R(B\\_\\{n-1\\},B\\_n) =\
+    \ 4n-1\\$ for an infinite family of \\$n\\$ using a block-circulant construction\
+    \ similar to Paley graphs. We obtain improved bounds for several other values\
+    \ of \\$R(B\\_r,B\\_s)\\$ using different block-circulant graphs from SAT and\
+    \ integer programming (IP) solvers. Finally, we enumerate the number of critical\
+    \ graphs for \\$R(B\\_r,B\\_s)\\$ for small \\$r\\$ and \\$s\\$ using SAT modulo\
+    \ symmetries (SMS).},\n  archiveprefix = {arXiv},\n  keywords = {Mathematics -\
+    \ Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/WA4B535U/Wesley -\
+    \ 2024 - Lower Bounds for Book Ramsey Numbers.pdf;/Users/bsuberca/Zotero/storage/IVJH57VW/2410.html}\n\
+    }\n"

@@ -1,16 +1,23 @@
-title: A SAT Attack on the Erdős Discrepancy Conjecture
+title: "A SAT Attack on the Erd\u0151s Discrepancy Conjecture"
 authors: Konev, Lisitsa
-labels: []
+labels:
+- famous conjectures
 publications:
 - name: arXiv
-  url: ''
+  url: https://arxiv.org/abs/1402.2184
   year: 2014
-  bibtex: |
-    @misc{konev2014sat,
-      title = {A {{SAT}} Attack on the Erdos Discrepancy Conjecture},
-      author = {Konev, Boris and Lisitsa, Alexei},
-      year = {2014},
-      eprint = {1402.2184},
-      primaryclass = {cs.DM},
-      archiveprefix = {arXiv}
-    }
+  month: 2
+  day: 10
+  bibtex: "@misc{konev2014sat,\n  title = {A {{SAT}} Attack on the Erdos Discrepancy\
+    \ Conjecture},\n  author = {Konev, Boris and Lisitsa, Alexei},\n  year = {2014},\n\
+    \  eprint = {1402.2184},\n  primaryclass = {cs.DM},\n  archiveprefix = {arXiv}\n\
+    }\n"
+- name: SAT
+  url: https://doi.org/10.1007/978-3-319-09284-3_17
+  year: 2014
+  dblp_key: conf/sat/KonevL14
+  bibtex: "@inproceedings{DBLP:conf/sat/KonevL14,\n  author       = {Boris Konev and\n\
+    \                  Alexei Lisitsa},\n  title        = {A {SAT} Attack on the Erd{\\\
+    H{o}}s Discrepancy Conjecture},\n  booktitle    = {{SAT}},\n  series       = {Lecture\
+    \ Notes in Computer Science},\n  volume       = {8561},\n  pages        = {219--226},\n\
+    \  publisher    = {Springer},\n  year         = {2014}\n}\n\n"

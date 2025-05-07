@@ -1,26 +1,22 @@
 title: Searching for Smallest Universal Graphs and Tournaments with SAT
 authors: Zhang, Szeider
-labels: []
+labels:
+- graph theory
 publications:
 - name: CP
   url: ''
   year: 2023
-  bibtex: |
-    @inproceedings{zhangSearchingSmallestUniversal2023a,
-      title = {Searching for {{Smallest Universal Graphs}} and {{Tournaments}} with {{SAT}}},
-      booktitle = {29th {{International Conference}} on {{Principles}} and {{Practice}} of {{Constraint Programming}} ({{CP}} 2023)},
-      author = {Zhang, Tianwei and Szeider, Stefan},
-      editor = {Yap, Roland H. C.},
-      year = {2023},
-      series = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},
-      volume = {280},
-      pages = {39:1--39:20},
-      publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
-      address = {Dagstuhl, Germany},
-      issn = {1868-8969},
-      doi = {10.4230/LIPIcs.CP.2023.39},
-      urldate = {2025-04-13},
-      isbn = {978-3-95977-300-3},
-      keywords = {Constrained-based combinatorics,directed graphs,SAT solving,subgraph isomorphism,symmetry breaking,synthesis problems,tournament},
-      file = {/Users/bsuberca/Zotero/storage/F2HHQVYI/Zhang and Szeider - 2023 - Searching for Smallest Universal Graphs and Tourna.pdf}
-    }
+  dblp_key: conf/cp/ZhangS23
+  bibtex: "@inproceedings{zhangSearchingSmallestUniversal2023a,\n  title = {Searching\
+    \ for {{Smallest Universal Graphs}} and {{Tournaments}} with {{SAT}}},\n  booktitle\
+    \ = {29th {{International Conference}} on {{Principles}} and {{Practice}} of {{Constraint\
+    \ Programming}} ({{CP}} 2023)},\n  author = {Zhang, Tianwei and Szeider, Stefan},\n\
+    \  editor = {Yap, Roland H. C.},\n  year = {2023},\n  series = {Leibniz {{International\
+    \ Proceedings}} in {{Informatics}} ({{LIPIcs}})},\n  volume = {280},\n  pages\
+    \ = {39:1--39:20},\n  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"\
+    u}r Informatik},\n  address = {Dagstuhl, Germany},\n  issn = {1868-8969},\n  doi\
+    \ = {10.4230/LIPIcs.CP.2023.39},\n  urldate = {2025-04-13},\n  isbn = {978-3-95977-300-3},\n\
+    \  keywords = {Constrained-based combinatorics,directed graphs,SAT solving,subgraph\
+    \ isomorphism,symmetry breaking,synthesis problems,tournament},\n  file = {/Users/bsuberca/Zotero/storage/F2HHQVYI/Zhang\
+    \ and Szeider - 2023 - Searching for Smallest Universal Graphs and Tourna.pdf}\n\
+    }\n"

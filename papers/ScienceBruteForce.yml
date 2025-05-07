@@ -1,16 +1,13 @@
 title: The Science of Brute Force
-authors: ''
-labels: []
+authors: Heule, Kullmann
+labels:
+- survey
 publications:
-- name: CACM
-  url: ''
+- name: Commun. ACM
+  url: https://doi.org/10.1145/3107239
   year: 2017
-  bibtex: |
-    @misc{ScienceBruteForce2017,
-      title = {The {{Science}} of {{Brute Force}} -- {{Communications}} of the {{ACM}}},
-      year = {2017},
-      month = aug,
-      urldate = {2025-04-13},
-      langid = {american},
-      file = {/Users/bsuberca/Zotero/storage/FAXHYSV4/the-science-of-brute-force.html}
-    }
+  dblp_key: journals/cacm/HeuleK17
+  bibtex: "@article{DBLP:journals/cacm/HeuleK17,\n  author       = {Marijn J. H. Heule\
+    \ and\n                  Oliver Kullmann},\n  title        = {The science of brute\
+    \ force},\n  journal      = {Commun. {ACM}},\n  volume       = {60},\n  number\
+    \       = {8},\n  pages        = {70--79},\n  year         = {2017}\n}\n\n"

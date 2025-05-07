@@ -1,0 +1,23 @@
+title: Finding Reductions Automatically
+authors: Crouch, Immerman, Moss
+labels:
+- gadget design
+publications:
+- name: Fields of Logic and Computation
+  url: https://people.cs.umass.edu/~immerman/pub/reductions.pdf
+  year: 2010
+  dblp_key: conf/birthday/CrouchIM10
+  bibtex: "@incollection{crouchFindingReductionsAutomatically2010,\n  title = {Finding\
+    \ {{Reductions Automatically}}},\n  booktitle = {Fields of {{Logic}} and {{Computation}}:\
+    \ {{Essays Dedicated}} to {{Yuri Gurevich}} on the {{Occasion}} of {{His}} 70th\
+    \ {{Birthday}}},\n  author = {Crouch, Michael and Immerman, Neil and Moss, J.\
+    \ Eliot B.},\n  editor = {Blass, Andreas and Dershowitz, Nachum and Reisig, Wolfgang},\n\
+    \  year = {2010},\n  pages = {181--200},\n  publisher = {Springer},\n  address\
+    \ = {Berlin, Heidelberg},\n  doi = {10.1007/978-3-642-15025-8_10},\n  urldate\
+    \ = {2025-05-07},\n  abstract = {We describe our progress building the program\
+    \ ReductionFinder, which uses off-the-shelf SAT solvers together with the Cmodels\
+    \ system to automatically search for reductions between decision problems described\
+    \ in logic.},\n  isbn = {978-3-642-15025-8},\n  langid = {english},\n  keywords\
+    \ = {descriptive complexity,first-order reduction,quantifier-free reduction,SAT\
+    \ solver},\n  file = {/Users/bsuberca/Zotero/storage/UN4UHY4V/Crouch et al. -\
+    \ 2010 - Finding Reductions Automatically.pdf}\n}\n"

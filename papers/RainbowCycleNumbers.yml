@@ -1,0 +1,20 @@
+title: Computing Small Rainbow Cycle Numbers with SAT Modulo Symmetries
+authors: Kirchweger, Szeider
+labels:
+- graph theory
+- social choice theory
+publications:
+- name: CP
+  url: ''
+  year: 2024
+  bibtex: "@inproceedings{kirchwegerComputingSmallRainbow2024,\n  title = {Computing\
+    \ {{Small Rainbow Cycle Numbers}} with {{SAT Modulo Symmetries}}},\n  booktitle\
+    \ = {30th {{International Conference}} on {{Principles}} and {{Practice}} of {{Constraint\
+    \ Programming}} ({{CP}} 2024)},\n  author = {Kirchweger, Markus and Szeider, Stefan},\n\
+    \  editor = {Shaw, Paul},\n  year = {2024},\n  series = {Leibniz {{International\
+    \ Proceedings}} in {{Informatics}} ({{LIPIcs}})},\n  volume = {307},\n  pages\
+    \ = {37:1--37:11},\n  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"\
+    u}r Informatik},\n  address = {Dagstuhl, Germany},\n  issn = {1868-8969},\n  doi\
+    \ = {10.4230/LIPIcs.CP.2024.37},\n  urldate = {2025-05-07},\n  isbn = {978-3-95977-336-2},\n\
+    \  keywords = {combinatorial search,EFX,rainbow cycle number,SAT modulo Symmetries},\n\
+    \  file = {/Users/bsuberca/Zotero/storage/VTZC7XVG/LIPIcs.CP.2024.html}\n}\n"

@@ -1,26 +1,23 @@
-title: A SAT Solver's Opinion on the Erdős-Faber-Lovász Conjecture
+title: "A SAT Solver's Opinion on the Erd\u0151s-Faber-Lov\xE1sz Conjecture"
 authors: Kirchweger, Peitl, Szeider
-labels: []
+labels:
+- graph coloring
+- famous conjectures
 publications:
 - name: SAT
-  url: ''
+  url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2023.13
   year: 2023
-  bibtex: |
-    @inproceedings{kirchwegerSATSolversOpinion2023,
-      title = {A {{SAT Solver}}'s {{Opinion}} on the {{Erd}}{\textbackslash}{{Hos-Faber-Lov{\'a}sz Conjecture}}},
-      booktitle = {26th {{International Conference}} on {{Theory}} and {{Applications}} of {{Satisfiability Testing}} ({{SAT}} 2023)},
-      author = {Kirchweger, Markus and Peitl, Tom{\'a}{\v s} and Szeider, Stefan},
-      editor = {Mahajan, Meena and Slivovsky, Friedrich},
-      year = {2023},
-      series = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},
-      volume = {271},
-      pages = {13:1--13:17},
-      publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
-      address = {Dagstuhl, Germany},
-      issn = {1868-8969},
-      doi = {10.4230/LIPIcs.SAT.2023.13},
-      urldate = {2025-04-13},
-      isbn = {978-3-95977-286-0},
-      keywords = {graph coloring,hypergraphs,SAT modulo symmetries},
-      file = {/Users/bsuberca/Zotero/storage/TMKHA6RX/Kirchweger et al. - 2023 - A SAT Solver’s Opinion on the ErdHos-Faber-Lovász.pdf;/Users/bsuberca/Zotero/storage/SVNGAT87/LIPIcs.SAT.2023.html}
-    }
+  dblp_key: conf/sat/KirchwegerPS23
+  bibtex: "@inproceedings{kirchwegerSATSolversOpinion2023,\n  title = {A {{SAT Solver}}'s\
+    \ {{Opinion}} on the {{Erd}}{\\textbackslash}{{Hos-Faber-Lov{\\'a}sz Conjecture}}},\n\
+    \  booktitle = {26th {{International Conference}} on {{Theory}} and {{Applications}}\
+    \ of {{Satisfiability Testing}} ({{SAT}} 2023)},\n  author = {Kirchweger, Markus\
+    \ and Peitl, Tom{\\'a}{\\v s} and Szeider, Stefan},\n  editor = {Mahajan, Meena\
+    \ and Slivovsky, Friedrich},\n  year = {2023},\n  series = {Leibniz {{International\
+    \ Proceedings}} in {{Informatics}} ({{LIPIcs}})},\n  volume = {271},\n  pages\
+    \ = {13:1--13:17},\n  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"\
+    u}r Informatik},\n  address = {Dagstuhl, Germany},\n  issn = {1868-8969},\n  doi\
+    \ = {10.4230/LIPIcs.SAT.2023.13},\n  urldate = {2025-04-13},\n  isbn = {978-3-95977-286-0},\n\
+    \  keywords = {graph coloring,hypergraphs,SAT modulo symmetries},\n  file = {/Users/bsuberca/Zotero/storage/TMKHA6RX/Kirchweger\
+    \ et al. - 2023 - A SAT Solver\u2019s Opinion on the ErdHos-Faber-Lov\xE1sz.pdf;/Users/bsuberca/Zotero/storage/SVNGAT87/LIPIcs.SAT.2023.html}\n\
+    }\n"

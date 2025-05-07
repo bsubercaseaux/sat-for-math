@@ -1,0 +1,14 @@
+title: SAT Modulo Symmetries for Graph Generation and Enumeration
+authors: Kirchweger, Szeider
+labels:
+- graph theory
+publications:
+- name: ACM Trans. Comput. Log.
+  url: https://doi.org/10.1145/3670405
+  year: 2024
+  dblp_key: journals/tocl/KirchwegerS24
+  bibtex: "@article{DBLP:journals/tocl/KirchwegerS24,\n  author       = {Markus Kirchweger\
+    \ and\n                  Stefan Szeider},\n  title        = {{SAT} Modulo Symmetries\
+    \ for Graph Generation and Enumeration},\n  journal      = {{ACM} Trans. Comput.\
+    \ Log.},\n  volume       = {25},\n  number       = {3},\n  pages        = {1--30},\n\
+    \  year         = {2024}\n}\n\n"

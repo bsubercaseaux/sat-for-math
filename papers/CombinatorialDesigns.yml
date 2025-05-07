@@ -1,0 +1,15 @@
+title: Combinatorial Designs by SAT Solvers
+authors: Zhang
+labels:
+- combinatorial design
+- survey
+publications:
+- name: Handbook of Satisfiability
+  url: https://www.iospress.com/catalog/books/handbook-of-satisfiability-2
+  year: 2009
+  dblp_key: series/faia/Zhang21
+  bibtex: "@incollection{zhangCombinatorialDesignsSAT2009,\n  title = {Combinatorial\
+    \ {{Designs}} by {{SAT Solvers}}},\n  booktitle = {Handbook of {{Satisfiability}}},\n\
+    \  author = {Zhang, Hantao},\n  year = {2009},\n  pages = {533--568},\n  publisher\
+    \ = {IOS Press},\n  doi = {10.3233/978-1-58603-929-5-533},\n  urldate = {2025-04-14},\n\
+    \  langid = {english}\n}\n"

@@ -1,6 +1,7 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import { Box, Typography } from "@mui/material";
+import { blueGrey, amber, green, lightBlue } from "@mui/material/colors";
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                 flexShrink: 0
             }}>
             <Typography gutterBottom align="center">
-            This page is a fork of <a href="https://algorithms-with-predictions.github.io/" style={{color: '#80D860'}}> algorithms-with-predictions.github.io</a>, thanks to the authors!
+            This page is a fork of <a href="https://algorithms-with-predictions.github.io/" style={{color: amber[600]}}> algorithms-with-predictions.github.io</a>, thanks to the authors!
             </Typography>
             
         </Box>

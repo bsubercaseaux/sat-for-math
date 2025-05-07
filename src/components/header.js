@@ -4,11 +4,13 @@ import Button from "@mui/material/Button";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
+
+const baseUrl = "https://bsubercaseaux.github.io/sat-for-math";
 const pages = [
-  { name: "Paper List", href: "/" },
-  { name: "Further Material", href: "/material" },
-  { name: "How to Contribute", href: "/contribute" },
-  { name: "About", href: "/about" },
+  { name: "Paper List", href: `${baseUrl}/` },
+  { name: "Further Material", href: `${baseUrl}/material` },
+  { name: "How to Contribute", href: `${baseUrl}/contribute` },
+  { name: "About", href: `${baseUrl}/about` },
 ];
 
 const Header = () => {

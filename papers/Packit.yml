@@ -1,24 +1,38 @@
 title: PackIt! Gamified Rectangle Packing
 authors: Garrison, Heule, Subercaseaux
-labels: []
+labels:
+- combinatorial games
 publications:
 - name: arXiv
   url: ''
   year: 2024
-  bibtex: |
-    @misc{garrisonPackItGamifiedRectangle2024,
-      title = {{{PackIt}}! {{Gamified Rectangle Packing}}},
-      author = {Garrison, Thomas and Heule, Marijn J. H. and Subercaseaux, Bernardo},
-      year = {2024},
-      month = may,
-      number = {arXiv:2403.12195},
-      eprint = {2403.12195},
-      primaryclass = {math},
-      publisher = {arXiv},
-      doi = {10.48550/arXiv.2403.12195},
-      urldate = {2025-04-13},
-      abstract = {We present and analyze PackIt!, a turn-based game consisting of packing rectangles on an \$n {\textbackslash}times n\$ grid. PackIt! can be easily played on paper, either as a competitive two-player game or in {\textbackslash}emph\{solitaire\} fashion. On the \$t\$-th turn, a rectangle of area \$t\$ or \$t+1\$ must be placed in the grid. In the two-player format of PackIt! whichever player places a rectangle last wins, whereas the goal in the solitaire variant is to perfectly pack the \$n {\textbackslash}times n\$ grid. We analyze conditions for the existence of a perfect packing over \$n {\textbackslash}times n\$, then present an automated reasoning approach that allows finding perfect games of PackIt! up to \$n = 50\$ which includes a novel SAT-encoding technique of independent interest, and conclude by proving an NP-hardness result.},
-      archiveprefix = {arXiv},
-      keywords = {Computer Science - Computer Science and Game Theory,Computer Science - Data Structures and Algorithms,Mathematics - Combinatorics},
-      file = {/Users/bsuberca/Zotero/storage/UBRZPABD/Garrison et al. - 2024 - PackIt! Gamified Rectangle Packing.pdf}
-    }
+  bibtex: "@misc{garrisonPackItGamifiedRectangle2024,\n  title = {{{PackIt}}! {{Gamified\
+    \ Rectangle Packing}}},\n  author = {Garrison, Thomas and Heule, Marijn J. H.\
+    \ and Subercaseaux, Bernardo},\n  year = {2024},\n  month = may,\n  number = {arXiv:2403.12195},\n\
+    \  eprint = {2403.12195},\n  primaryclass = {math},\n  publisher = {arXiv},\n\
+    \  doi = {10.48550/arXiv.2403.12195},\n  urldate = {2025-04-13},\n  abstract =\
+    \ {We present and analyze PackIt!, a turn-based game consisting of packing rectangles\
+    \ on an \\$n {\\textbackslash}times n\\$ grid. PackIt! can be easily played on\
+    \ paper, either as a competitive two-player game or in {\\textbackslash}emph\\\
+    {solitaire\\} fashion. On the \\$t\\$-th turn, a rectangle of area \\$t\\$ or\
+    \ \\$t+1\\$ must be placed in the grid. In the two-player format of PackIt! whichever\
+    \ player places a rectangle last wins, whereas the goal in the solitaire variant\
+    \ is to perfectly pack the \\$n {\\textbackslash}times n\\$ grid. We analyze conditions\
+    \ for the existence of a perfect packing over \\$n {\\textbackslash}times n\\\
+    $, then present an automated reasoning approach that allows finding perfect games\
+    \ of PackIt! up to \\$n = 50\\$ which includes a novel SAT-encoding technique\
+    \ of independent interest, and conclude by proving an NP-hardness result.},\n\
+    \  archiveprefix = {arXiv},\n  keywords = {Computer Science - Computer Science\
+    \ and Game Theory,Computer Science - Data Structures and Algorithms,Mathematics\
+    \ - Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/UBRZPABD/Garrison\
+    \ et al. - 2024 - PackIt! Gamified Rectangle Packing.pdf}\n}\n"
+- name: FUN
+  url: https://doi.org/10.4230/LIPIcs.FUN.2024.14
+  year: 2024
+  dblp_key: conf/fun/GarrisonHS24
+  bibtex: "@inproceedings{DBLP:conf/fun/GarrisonHS24,\n  author       = {Thomas Garrison\
+    \ and\n                  Marijn J. H. Heule and\n                  Bernardo Subercaseaux},\n\
+    \  title        = {PackIt!: Gamified Rectangle Packing},\n  booktitle    = {{FUN}},\n\
+    \  series       = {LIPIcs},\n  volume       = {291},\n  pages        = {14:1--14:19},\n\
+    \  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\\\"{u}}r Informatik},\n\
+    \  year         = {2024}\n}\n\n"

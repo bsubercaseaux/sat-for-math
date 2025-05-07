@@ -1,19 +1,18 @@
 title: The Packing Chromatic Number of the Infinite Square Grid Is at Least 14
 authors: Subercaseaux, Heule
-labels: 
+labels:
 - graph coloring
 publications:
 - name: SAT
   url: ''
   year: 2022
-  bibtex: |
-    @inproceedings{subercaseauxPackingChromaticNumber2022,
-      title = {The {{Packing Chromatic Number}} of the {{Infinite Square Grid Is}} at {{Least}} 14},
-      booktitle = {25th {{International Conference}} on {{Theory}} and {{Applications}} of {{Satisfiability Testing}} ({{SAT}} 2022)},
-      author = {Subercaseaux, Bernardo and Heule, Marijn JH},
-      year = {2022},
-      publisher = {Schloss Dagstuhl-Leibniz-Zentrum f{\"u}r Informatik},
-      copyright = {All rights reserved},
-      keywords = {encodings,packing coloring,SAT solvers},
-      file = {/Users/bsuberca/Zotero/storage/U8NU9VPK/Subercaseaux and Heule - 2022 - The Packing Chromatic Number of the Infinite Squar.pdf}
-    }
+  dblp_key: conf/sat/SubercaseauxH22
+  bibtex: "@inproceedings{subercaseauxPackingChromaticNumber2022,\n  title = {The\
+    \ {{Packing Chromatic Number}} of the {{Infinite Square Grid Is}} at {{Least}}\
+    \ 14},\n  booktitle = {25th {{International Conference}} on {{Theory}} and {{Applications}}\
+    \ of {{Satisfiability Testing}} ({{SAT}} 2022)},\n  author = {Subercaseaux, Bernardo\
+    \ and Heule, Marijn JH},\n  year = {2022},\n  publisher = {Schloss Dagstuhl-Leibniz-Zentrum\
+    \ f{\\\"u}r Informatik},\n  copyright = {All rights reserved},\n  keywords = {encodings,packing\
+    \ coloring,SAT solvers},\n  file = {/Users/bsuberca/Zotero/storage/U8NU9VPK/Subercaseaux\
+    \ and Heule - 2022 - The Packing Chromatic Number of the Infinite Squar.pdf}\n\
+    }\n"

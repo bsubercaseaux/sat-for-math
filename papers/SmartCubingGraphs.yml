@@ -1,0 +1,35 @@
+title: 'Smart Cubing for Graph Search: A Comparative Study'
+authors: Kirchweger, Xia, Peitl, Szeider
+labels:
+- graph theory
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2501.17201
+  year: 2025
+  month: 1
+  day: 27
+  bibtex: "@misc{kirchwegerSmartCubingGraph2025,\n  title = {Smart {{Cubing}} for\
+    \ {{Graph Search}}: {{A Comparative Study}}},\n  shorttitle = {Smart {{Cubing}}\
+    \ for {{Graph Search}}},\n  author = {Kirchweger, Markus and Xia, Hai and Peitl,\
+    \ Tom{\\'a}{\\v s} and Szeider, Stefan},\n  year = {2025},\n  month = jan,\n \
+    \ number = {arXiv:2501.17201},\n  eprint = {2501.17201},\n  primaryclass = {cs},\n\
+    \  publisher = {arXiv},\n  doi = {10.48550/arXiv.2501.17201},\n  urldate = {2025-04-13},\n\
+    \  abstract = {Parallel solving via cube-and-conquer is a key method for scaling\
+    \ SAT solvers to hard instances. While cube-and-conquer has proven successful\
+    \ for pure SAT problems, notably the Pythagorean triples conjecture, its application\
+    \ to SAT solvers extended with propagators presents unique challenges, as these\
+    \ propagators learn constraints dynamically during the search. We study this problem\
+    \ using SAT Modulo Symmetries (SMS) as our primary test case, where a symmetry-breaking\
+    \ propagator reduces the search space by learning constraints that eliminate isomorphic\
+    \ graphs. Through extensive experimentation comprising over 10,000 CPU hours,\
+    \ we systematically evaluate different cube-and-conquer variants on three well-studied\
+    \ combinatorial problems. Our methodology combines prerun phases to collect learned\
+    \ constraints, various cubing strategies, and parameter tuning via algorithm configuration\
+    \ and LLM-generated design suggestions. The comprehensive empirical evaluation\
+    \ provides new insights into effective cubing strategies for propagator-based\
+    \ SAT solving, with our best method achieving speedups of 2-3x from improved cubing\
+    \ and parameter tuning, providing an additional 1.5-2x improvement on harder instances.},\n\
+    \  archiveprefix = {arXiv},\n  keywords = {Computer Science - Artificial Intelligence},\n\
+    \  file = {/Users/bsuberca/Zotero/storage/VPK4DFKG/Kirchweger et al. - 2025 -\
+    \ Smart Cubing for Graph Search A Comparative Study.pdf;/Users/bsuberca/Zotero/storage/J2CJQVIQ/2501.html}\n\
+    }\n"

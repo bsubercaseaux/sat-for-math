@@ -1,0 +1,43 @@
+title: Impossibility Theorems Involving Weakenings of Expansion Consistency and Resoluteness
+  in Voting
+authors: Holliday, Norman, Pacuit, Zahedian
+labels:
+- social choice theory
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2208.06907
+  year: 2022
+  month: 8
+  day: 14
+  bibtex: "@misc{hollidayImpossibilityTheoremsInvolving2023,\n  title = {Impossibility\
+    \ Theorems Involving Weakenings of Expansion Consistency and Resoluteness in Voting},\n\
+    \  author = {Holliday, Wesley H. and Norman, Chase and Pacuit, Eric and Zahedian,\
+    \ Saam},\n  year = {2023},\n  month = mar,\n  number = {arXiv:2208.06907},\n \
+    \ eprint = {2208.06907},\n  primaryclass = {econ},\n  publisher = {arXiv},\n \
+    \ doi = {10.48550/arXiv.2208.06907},\n  urldate = {2025-05-07},\n  abstract =\
+    \ {A fundamental principle of individual rational choice is Sen's \\${\\textbackslash}gamma\\\
+    $ axiom, also known as expansion consistency, stating that any alternative chosen\
+    \ from each of two menus must be chosen from the union of the menus. Expansion\
+    \ consistency can also be formulated in the setting of social choice. In voting\
+    \ theory, it states that any candidate chosen from two fields of candidates must\
+    \ be chosen from the combined field of candidates. An important special case of\
+    \ the axiom is binary expansion consistency, which states that any candidate chosen\
+    \ from an initial field of candidates and chosen in a head-to-head match with\
+    \ a new candidate must also be chosen when the new candidate is added to the field,\
+    \ thereby ruling out spoiler effects. In this paper, we study the tension between\
+    \ this weakening of expansion consistency and weakenings of resoluteness, an axiom\
+    \ demanding the choice of a single candidate in any election. As is well known,\
+    \ resoluteness is inconsistent with basic fairness conditions on social choice,\
+    \ namely anonymity and neutrality. Here we prove that even significant weakenings\
+    \ of resoluteness, which are consistent with anonymity and neutrality, are inconsistent\
+    \ with binary expansion consistency. The proofs make use of SAT solving, with\
+    \ the correctness of a SAT encoding formally verified in the Lean Theorem Prover,\
+    \ as well as a strategy for generalizing impossibility theorems obtained for special\
+    \ types of voting methods (namely majoritarian and pairwise voting methods) to\
+    \ impossibility theorems for arbitrary voting methods. This proof strategy may\
+    \ be of independent interest for its potential applicability to other impossibility\
+    \ theorems in social choice.},\n  archiveprefix = {arXiv},\n  keywords = {Computer\
+    \ Science - Computer Science and Game Theory,Economics - Theoretical Economics},\n\
+    \  file = {/Users/bsuberca/Zotero/storage/E5TEYNMP/Holliday et al. - 2023 - Impossibility\
+    \ theorems involving weakenings of exp.pdf;/Users/bsuberca/Zotero/storage/C4RBF3WH/2208.html}\n\
+    }\n"

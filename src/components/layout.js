@@ -8,7 +8,7 @@ import Footer from "./footer";
 import "./layout.css";
 
 const Layout = ({ children }) => (
-  <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", position: 'relative', paddingBottom: '300px' }}>
+  <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", position: 'relative' }}>
     <Header />
     <div>
       <main>

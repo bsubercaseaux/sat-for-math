@@ -1,0 +1,19 @@
+title: Co-Certificate Learning with SAT modulo Symmetries
+authors: Kirchweger, Peitl, Szeider
+labels: 
+- vector systems
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2306.10427
+  year: 2023
+  month: 6
+  day: 17
+- name: IJCAI
+  url: https://doi.org/10.24963/ijcai.2023/216
+  year: 2023
+  dblp_key: conf/ijcai/KirchwegerPS23
+  bibtex: "@inproceedings{DBLP:conf/ijcai/KirchwegerPS23,\n  author       = {Markus\
+    \ Kirchweger and\n                  Tom{\\'{a}}s Peitl and\n                 \
+    \ Stefan Szeider},\n  title        = {Co-Certificate Learning with {SAT} Modulo\
+    \ Symmetries},\n  booktitle    = {{IJCAI}},\n  pages        = {1944--1953},\n\
+    \  publisher    = {ijcai.org},\n  year         = {2023}\n}\n\n"

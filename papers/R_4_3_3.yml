@@ -1,26 +1,20 @@
 title: Computing the Ramsey Number R(4,3,3) Using Abstraction and Symmetry Breaking
 authors: Codish, Frank, Itzhakov, Miller
 labels:
-- Ramsey numbers
+- Ramsey theory
 publications:
-- name: Constraints
-  url: ''
+- name: arXiv
+  url: https://arxiv.org/abs/1510.08266
+  year: 2015
+  month: 10
+  day: 28
+- name: Constraints An Int. J.
+  url: https://doi.org/10.1007/s10601-016-9240-3
   year: 2016
-  bibtex: |
-    @article{codishComputingRamseyNumber2016,
-      title = {Computing the {{Ramsey}} Number {{R}}(4,3,3) Using Abstraction and Symmetry Breaking},
-      author = {Codish, Michael and Frank, Michael and Itzhakov, Avraham and Miller, Alice},
-      year = {2016},
-      month = jul,
-      journal = {Constraints},
-      volume = {21},
-      number = {3},
-      pages = {375--393},
-      issn = {1572-9354},
-      doi = {10.1007/s10601-016-9240-3},
-      urldate = {2025-04-13},
-      abstract = {The number R(4, 3, 3) is often presented as the unknown Ramsey number with the best chances of being found ``soon''. Yet, its precise value has remained unknown for almost 50 years. This paper presents a methodology based on abstraction and symmetry breaking that applies to solve hard graph edge-coloring problems. The utility of this methodology is demonstrated by using it to compute the value R(4, 3, 3) = 30. Along the way it is required to first compute the previously unknown set \${\textbackslash}mathcal \{R\}(3,3,3;13)\$consisting of 78,892 Ramsey colorings.},
-      langid = {english},
-      keywords = {Artificial Intelligence,Ramsey numbers,SAT solving,Symmetry breaking},
-      file = {/Users/bsuberca/Zotero/storage/RKS8CNCN/Codish et al. - 2016 - Computing the Ramsey number R(4,3,3) using abstrac.pdf}
-    }
+  dblp_key: journals/constraints/CodishFIM16
+  bibtex: "@article{DBLP:journals/constraints/CodishFIM16,\n  author       = {Michael\
+    \ Codish and\n                  Michael Frank and\n                  Avraham Itzhakov\
+    \ and\n                  Alice Miller},\n  title        = {Computing the Ramsey\
+    \ number R(4, 3, 3) using abstraction and symmetry\n                  breaking},\n\
+    \  journal      = {Constraints An Int. J.},\n  volume       = {21},\n  number\
+    \       = {3},\n  pages        = {375--393},\n  year         = {2016}\n}\n\n"

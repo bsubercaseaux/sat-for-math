@@ -1,17 +1,15 @@
 title: Coloring Unit-Distance Strips Using SAT
 authors: Oostema, Martins, Heule
-labels: []
+labels:
+- graph coloring
 publications:
-- name: EPiC Series in Computing
-  url: ''
+- name: LPAR
+  url: https://doi.org/10.29007/btmj
   year: 2020
-  bibtex: |
-    @article{oostemaColoringUnitdistanceStrips2020,
-      title = {Coloring Unit-Distance Strips Using {{SAT}}},
-      author = {Oostema, Peter and Martins, Ruben and Heule, Marijn},
-      year = {2020},
-      journal = {EPiC Series in Computing},
-      volume = {73},
-      urldate = {2025-04-13},
-      file = {/Users/bsuberca/Zotero/storage/QJH7V3MJ/Oostema et al. - 2020 - Coloring unit-distance strips using SAT.pdf}
-    }
+  dblp_key: conf/lpar/OostemaMH20
+  bibtex: "@inproceedings{DBLP:conf/lpar/OostemaMH20,\n  author       = {Peter Oostema\
+    \ and\n                  Ruben Martins and\n                  Marijn Heule},\n\
+    \  title        = {Coloring Unit-Distance Strips using {SAT}},\n  booktitle  \
+    \  = {{LPAR}},\n  series       = {EPiC Series in Computing},\n  volume       =\
+    \ {73},\n  pages        = {373--389},\n  publisher    = {EasyChair},\n  year \
+    \        = {2020}\n}\n\n"

@@ -1,0 +1,41 @@
+title: On the Deque and Rique Numbers of Complete and Complete Bipartite Graphs
+authors: Bekos, Kaufmann, Pavlidi, Rieger
+labels:
+- graph theory
+- graph drawing
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2306.15395
+  year: 2023
+  month: 6
+  day: 27
+  bibtex: "@misc{bekosDequeRiqueNumbers2023,\n  title = {On the {{Deque}} and {{Rique\
+    \ Numbers}} of {{Complete}} and {{Complete Bipartite Graphs}}},\n  author = {Bekos,\
+    \ Michael A. and Kaufmann, Michael and Pavlidi, Maria Eleni and Rieger, Xenia},\n\
+    \  year = {2023},\n  month = jun,\n  number = {arXiv:2306.15395},\n  eprint =\
+    \ {2306.15395},\n  primaryclass = {cs},\n  publisher = {arXiv},\n  doi = {10.48550/arXiv.2306.15395},\n\
+    \  urldate = {2025-04-26},\n  abstract = {Several types of linear layouts of graphs\
+    \ are obtained by leveraging known data structures; the most notable representatives\
+    \ are the stack and the queue layouts. In this content, given a data structure,\
+    \ one seeks to specify an order of the vertices of the graph and a partition of\
+    \ its edges into pages, such that the endpoints of the edges assigned to each\
+    \ page can be processed by the given data structure in the underlying order. In\
+    \ this paper, we study deque and rique layouts of graphs obtained by leveraging\
+    \ the double-ended queue and the restricted-input double-ended queue (or deque\
+    \ and rique, for short), respectively. Hence, they generalize both the stack and\
+    \ the queue layouts. We focus on complete and complete bipartite graphs and present\
+    \ bounds on their deque- and rique-numbers, that is, on the minimum number of\
+    \ pages needed by any of these two types of linear layouts.},\n  archiveprefix\
+    \ = {arXiv},\n  keywords = {Computer Science - Data Structures and Algorithms},\n\
+    \  file = {/Users/bsuberca/Zotero/storage/5F6G8H48/Bekos et al. - 2023 - On the\
+    \ Deque and Rique Numbers of Complete and Com.pdf;/Users/bsuberca/Zotero/storage/44PTL6J3/2306.html}\n\
+    }\n"
+- name: CCCG
+  year: 2023
+  dblp_key: conf/cccg/BekosKPR23
+  bibtex: "@inproceedings{DBLP:conf/cccg/BekosKPR23,\n  author       = {Michael A.\
+    \ Bekos and\n                  Michael Kaufmann and\n                  Maria Eleni\
+    \ Pavlidi and\n                  Xenia Rieger},\n  title        = {On the Deque\
+    \ and Rique Numbers of Complete and Complete Bipartite\n                  Graphs},\n\
+    \  booktitle    = {{CCCG}},\n  pages        = {89--95},\n  year         = {2023}\n\
+    }\n\n"

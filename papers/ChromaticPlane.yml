@@ -1,20 +1,21 @@
 title: The Chromatic Number of the Plane Is at Least 5
-authors: Grey, J
-labels: []
+authors: de Grey
+labels:
+- graph coloring
 publications:
-- name: arXiv.org
-  url: ''
+- name: arXiv
+  url: https://arxiv.org/abs/1804.02385
   year: 2018
-  bibtex: |
-    @misc{greyChromaticNumberPlane2018,
-      title = {The Chromatic Number of the Plane Is at Least 5},
-      author = {Grey, De and J, Aubrey D. N.},
-      year = {2018},
-      month = apr,
-      journal = {arXiv.org},
-      urldate = {2025-04-13},
-      abstract = {We present a family of finite unit-distance graphs in the plane that are not 4-colourable, thereby improving the lower bound of the Hadwiger-Nelson problem. The smallest such graph that we have so far discovered has 1581 vertices.},
-      howpublished = {https://arxiv.org/abs/1804.02385v3},
-      langid = {english},
-      file = {/Users/bsuberca/Zotero/storage/Q8ZAQAND/Grey and J - 2018 - The chromatic number of the plane is at least 5.pdf}
-    }
+  month: 4
+  day: 8
+  bibtex: "@misc{greyChromaticNumberPlane2018a,\n  title = {The Chromatic Number of\
+    \ the Plane Is at Least 5},\n  author = {de Grey, Aubrey D. N. J.},\n  year =\
+    \ {2018},\n  month = may,\n  number = {arXiv:1804.02385},\n  eprint = {1804.02385},\n\
+    \  primaryclass = {math},\n  publisher = {arXiv},\n  doi = {10.48550/arXiv.1804.02385},\n\
+    \  urldate = {2025-05-07},\n  abstract = {We present a family of finite unit-distance\
+    \ graphs in the plane that are not 4-colourable, thereby improving the lower bound\
+    \ of the Hadwiger-Nelson problem. The smallest such graph that we have so far\
+    \ discovered has 1581 vertices.},\n  archiveprefix = {arXiv},\n  keywords = {Mathematics\
+    \ - Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/TZWT9W8B/Grey -\
+    \ 2018 - The chromatic number of the plane is at least 5.pdf;/Users/bsuberca/Zotero/storage/AAY3WEZN/1804.html}\n\
+    }\n"

@@ -1,0 +1,50 @@
+title: Rado Numbers and SAT Computations
+authors: Chang, Loera, Wesley
+labels:
+- Ramsey theory
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2210.03262
+  year: 2022
+  month: 10
+  day: 7
+  bibtex: "@inproceedings{changRadoNumbersSAT2022,\n  title = {Rado {{Numbers}} and\
+    \ {{SAT Computations}}},\n  booktitle = {Proceedings of the 2022 {{International\
+    \ Symposium}} on {{Symbolic}} and {{Algebraic Computation}}},\n  author = {Chang,\
+    \ Yuan and Loera, Jes{\\'u}s A. De and Wesley, William J.},\n  year = {2022},\n\
+    \  month = jul,\n  eprint = {2210.03262},\n  primaryclass = {math},\n  pages =\
+    \ {333--342},\n  doi = {10.1145/3476446.3535494},\n  urldate = {2025-04-16},\n\
+    \  abstract = {Given a linear equation \\${\\textbackslash}mathcal\\{E\\}\\$,\
+    \ the \\$k\\$-color Rado number \\$R\\_k({\\textbackslash}mathcal\\{E\\})\\$ is\
+    \ the smallest integer \\$n\\$ such that every \\$k\\$-coloring of \\${\\textbackslash}\\\
+    {1,2,3,{\\textbackslash}dots,n{\\textbackslash}\\}\\$ contains a monochromatic\
+    \ solution to \\${\\textbackslash}mathcal E\\$. The degree of regularity of \\\
+    ${\\textbackslash}mathcal E\\$, denoted \\$dor({\\textbackslash}mathcal E)\\$,\
+    \ is the largest value \\$k\\$ such that \\$R\\_k({\\textbackslash}mathcal E)\\\
+    $ is finite. In this article we present new theoretical and computational results\
+    \ about the Rado numbers \\$R\\_3({\\textbackslash}mathcal\\{E\\})\\$ and the\
+    \ degree of regularity of three-variable equations \\${\\textbackslash}mathcal\\\
+    {E\\}\\$. \\% We use SAT solvers to compute many new values of the three-color\
+    \ Rado numbers \\$R\\_3(ax+by+cz = 0)\\$ for fixed integers \\$a,b,\\$ and \\\
+    $c\\$. We also give a SAT-based method to compute infinite families of these numbers.\
+    \ In particular, we show that the value of \\$R\\_3(x-y = (m-2) z)\\$ is equal\
+    \ to \\$m{\\textasciicircum}3-m{\\textasciicircum}2-m-1\\$ for \\$m{\\textbackslash}ge\
+    \ 3\\$. This resolves a conjecture of Myers and implies the conjecture that the\
+    \ generalized Schur numbers \\$S(m,3) = R\\_3(x\\_1+x\\_2 + {\\textbackslash}dots\
+    \ x\\_\\{m-1\\} = x\\_m)\\$ equal \\$m{\\textasciicircum}3-m{\\textasciicircum}2-m-1\\\
+    $ for \\$m{\\textbackslash}ge 3\\$. Our SAT solver computations, combined with\
+    \ our new combinatorial results, give improved bounds on \\$dor(ax+by = cz)\\\
+    $ and exact values for \\$1{\\textbackslash}le a,b,c{\\textbackslash}le 5 \\$.\
+    \ We also give counterexamples to a conjecture of Golowich.},\n  archiveprefix\
+    \ = {arXiv},\n  keywords = {Mathematics - Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/VDDGE7ZT/Chang\
+    \ et al. - 2022 - Rado Numbers and SAT Computations.pdf;/Users/bsuberca/Zotero/storage/6BGNVYFX/2210.html}\n\
+    }\n"
+- name: ISSAC
+  url: https://doi.org/10.1145/3476446.3535494
+  year: 2022
+  dblp_key: conf/issac/ChangLW22
+  bibtex: "@inproceedings{DBLP:conf/issac/ChangLW22,\n  author       = {Yuan Chang\
+    \ and\n                  Jes{\\'{u}}s A. De Loera and\n                  William\
+    \ J. Wesley},\n  title        = {Rado Numbers and {SAT} Computations},\n  booktitle\
+    \    = {{ISSAC}},\n  pages        = {333--342},\n  publisher    = {{ACM}},\n \
+    \ year         = {2022}\n}\n\n"

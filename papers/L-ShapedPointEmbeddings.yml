@@ -1,0 +1,48 @@
+title: 'On L-shaped Point Set Embeddings of Trees: First Non-Embeddable Examples'
+authors: Mütze, Scheucher
+labels:
+- graph drawing
+- discrete geometry
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/1807.11043
+  year: 2018
+  month: 7
+  day: 29
+  bibtex: "@misc{mutzeLshapedPointSet2020,\n  title = {On {{L-shaped}} Point Set Embeddings\
+    \ of Trees: First Non-Embeddable Examples},\n  shorttitle = {On {{L-shaped}} Point\
+    \ Set Embeddings of Trees},\n  author = {M{\\\"u}tze, Torsten and Scheucher, Manfred},\n\
+    \  year = {2020},\n  month = apr,\n  number = {arXiv:1807.11043},\n  eprint =\
+    \ {1807.11043},\n  primaryclass = {cs},\n  publisher = {arXiv},\n  doi = {10.48550/arXiv.1807.11043},\n\
+    \  urldate = {2025-04-17},\n  abstract = {An L-shaped embedding of a tree in a\
+    \ point set is a planar drawing of the tree where the vertices are mapped to distinct\
+    \ points and every edge is drawn as a sequence of two axis-aligned line segments.\
+    \ There has been considerable work on establishing upper bounds on the minimum\
+    \ cardinality of a point set to guarantee that any tree of the same size with\
+    \ maximum degree 4 admits an L-shaped embedding on the point set. However, no\
+    \ non-trivial lower bound is known to this date, i.e., no known \\$n\\$-vertex\
+    \ tree requires more than \\$n\\$ points to be embedded. In this paper, we present\
+    \ the first examples of \\$n\\$-vertex trees for \\$n{\\textbackslash}in{\\textbackslash}\\\
+    {13,14,16,17,18,19,20{\\textbackslash}\\}\\$ that require strictly more points\
+    \ than vertices to admit an L-shaped embedding. Moreover, using computer help,\
+    \ we show that every tree on \\$n{\\textbackslash}leq 12\\$ vertices admits an\
+    \ L-shaped embedding in every set of \\$n\\$ points. We also consider embedding\
+    \ ordered trees, where the cyclic order of the neighbors of each vertex in the\
+    \ embedding is prescribed. For this setting, we determine the smallest non-embeddable\
+    \ ordered tree on \\$n=10\\$ vertices, and we show that every ordered tree on\
+    \ \\$n{\\textbackslash}leq 9\\$ or \\$n=11\\$ vertices admits an L-shaped embedding\
+    \ in every set of \\$n\\$ points. We also construct an infinite family of ordered\
+    \ trees which do not always admit an L-shaped embedding, answering a question\
+    \ raised by Biedl, Chan, Derka, Jain, and Lubiw.},\n  archiveprefix = {arXiv},\n\
+    \  keywords = {Computer Science - Computational Geometry,Mathematics - Combinatorics},\n\
+    \  file = {/Users/bsuberca/Zotero/storage/GCG53TSD/M\xFCtze and Scheucher - 2020\
+    \ - On L-shaped point set embeddings of trees first n.pdf}\n}\n"
+- name: J. Graph Algorithms Appl.
+  url: https://doi.org/10.7155/jgaa.00537
+  year: 2020
+  dblp_key: journals/jgaa/MutzeS20
+  bibtex: "@article{DBLP:journals/jgaa/MutzeS20,\n  author       = {Torsten M{\\\"\
+    {u}}tze and\n                  Manfred Scheucher},\n  title        = {On L-shaped\
+    \ point set embeddings of trees: first non-embeddable examples},\n  journal  \
+    \    = {J. Graph Algorithms Appl.},\n  volume       = {24},\n  number       =\
+    \ {3},\n  pages        = {343--369},\n  year         = {2020}\n}\n\n"

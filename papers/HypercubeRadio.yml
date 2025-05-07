@@ -6,18 +6,12 @@ publications:
 - name: LPAR
   url: ''
   year: 2023
-  bibtex: |
-    @inproceedings{LPAR2023:Toward_Optimal_Radio_Colorings,
-      title = {Toward Optimal Radio Colorings of Hypercubes via {{SAT-solving}}},
-      booktitle = {Proceedings of 24th International Conference on Logic for Programming, Artificial Intelligence and Reasoning},
-      author = {Subercaseaux, Bernardo and Heule, Marijn},
-      editor = {Piskac, Ruzica and Voronkov, Andrei},
-      year = {2023},
-      series = {{{EPiC}} Series in Computing},
-      volume = {94},
-      pages = {386--404},
-      publisher = {EasyChair},
-      issn = {2398-7340},
-      doi = {10.29007/qrmp},
-      bibsource = {EasyChair, https://easychair.org}
-    }
+  dblp_key: conf/lpar/SubercaseauxH23
+  bibtex: "@inproceedings{LPAR2023:Toward_Optimal_Radio_Colorings,\n  title = {Toward\
+    \ Optimal Radio Colorings of Hypercubes via {{SAT-solving}}},\n  booktitle = {Proceedings\
+    \ of 24th International Conference on Logic for Programming, Artificial Intelligence\
+    \ and Reasoning},\n  author = {Subercaseaux, Bernardo and Heule, Marijn},\n  editor\
+    \ = {Piskac, Ruzica and Voronkov, Andrei},\n  year = {2023},\n  series = {{{EPiC}}\
+    \ Series in Computing},\n  volume = {94},\n  pages = {386--404},\n  publisher\
+    \ = {EasyChair},\n  issn = {2398-7340},\n  doi = {10.29007/qrmp},\n  bibsource\
+    \ = {EasyChair, https://easychair.org}\n}\n"

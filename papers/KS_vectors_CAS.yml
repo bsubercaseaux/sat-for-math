@@ -1,0 +1,14 @@
+title: A SAT Solver + Computer Algebra Attack on the Minimum Kochen-specker Problem
+authors: Li, Bright, Ganesh
+labels: 
+- vector systems
+publications:
+- name: IJCAI
+  url: https://www.ijcai.org/proceedings/2024/210
+  year: 2024
+  dblp_key: conf/ijcai/0002B024
+  bibtex: "@inproceedings{DBLP:conf/ijcai/0002B024,\n  author       = {Zhengyu Li\
+    \ and\n                  Curtis Bright and\n                  Vijay Ganesh},\n\
+    \  title        = {A {SAT} Solver + Computer Algebra Attack on the Minimum Kochen-Specker\n\
+    \                  Problem},\n  booktitle    = {{IJCAI}},\n  pages        = {1898--1906},\n\
+    \  publisher    = {ijcai.org},\n  year         = {2024}\n}\n\n"

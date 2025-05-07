@@ -1,25 +1,18 @@
-title: >-
-  Combining SAT Solvers with Computer Algebra Systems to Verify Combinatorial
+title: Combining SAT Solvers with Computer Algebra Systems to Verify Combinatorial
   Conjectures
 authors: Zulkoski, Bright, Heinle, Kotsireas, Czarnecki, Ganesh
-labels: []
+labels:
+- computer algebra
+- graph theory
 publications:
-- name: Journal of Automated Reasoning
-  url: ''
+- name: J. Autom. Reason.
+  url: https://doi.org/10.1007/s10817-016-9396-y
   year: 2017
-  bibtex: |
-    @article{zulkoskiCombiningSATSolvers2017,
-      title = {Combining {{SAT Solvers}} with {{Computer Algebra Systems}} to {{Verify Combinatorial Conjectures}}},
-      author = {Zulkoski, Edward and Bright, Curtis and Heinle, Albert and Kotsireas, Ilias and Czarnecki, Krzysztof and Ganesh, Vijay},
-      year = {2017},
-      month = mar,
-      journal = {Journal of Automated Reasoning},
-      volume = {58},
-      number = {3},
-      pages = {313--339},
-      issn = {0168-7433, 1573-0670},
-      doi = {10.1007/s10817-016-9396-y},
-      urldate = {2025-04-13},
-      langid = {english},
-      file = {/Users/bsuberca/Zotero/storage/BFUPB6UQ/Zulkoski et al. - 2017 - Combining SAT Solvers with Computer Algebra System.pdf}
-    }
+  dblp_key: journals/jar/ZulkoskiBHKCG17
+  bibtex: "@article{DBLP:journals/jar/ZulkoskiBHKCG17,\n  author       = {Edward Zulkoski\
+    \ and\n                  Curtis Bright and\n                  Albert Heinle and\n\
+    \                  Ilias S. Kotsireas and\n                  Krzysztof Czarnecki\
+    \ and\n                  Vijay Ganesh},\n  title        = {Combining {SAT} Solvers\
+    \ with Computer Algebra Systems to Verify Combinatorial\n                  Conjectures},\n\
+    \  journal      = {J. Autom. Reason.},\n  volume       = {58},\n  number     \
+    \  = {3},\n  pages        = {313--339},\n  year         = {2017}\n}\n\n"

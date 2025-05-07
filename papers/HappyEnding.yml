@@ -1,17 +1,23 @@
 title: 'Happy Ending: An Empty Hexagon in Every Set of 30 Points'
 authors: Heule, Scheucher
-labels: 
+labels:
 - discrete geometry
+- Ramsey theory
 publications:
 - name: TACAS
   url: ''
   year: 2024
-  bibtex: |
-    @inproceedings{heuleHappyEndingEmpty2024a,
-      title = {Happy {{Ending}}: {{An Empty Hexagon}} in {{Every Set}} of 30 {{Points}}.},
-      booktitle = {Tools and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} - 30th {{International Conference}}, {{TACAS}} 2024, {{Held}} as {{Part}} of the {{European Joint Conferences}} on {{Theory}} and {{Practice}} of {{Software}}, {{ETAPS}} 2024, {{Luxembourg City}}, {{Luxembourg}}, {{April}} 6-11, 2024, {{Proceedings}}, {{Part I}}},
-      author = {Heule, Marijn J. H. and Scheucher, Manfred},
-      year = {2024},
-      pages = {61--80},
-      doi = {10.1007/978-3-031-57246-3_5}
-    }
+  dblp_key: conf/tacas/HeuleS24
+  bibtex: "@inproceedings{heuleHappyEndingEmpty2024a,\n  title = {Happy {{Ending}}:\
+    \ {{An Empty Hexagon}} in {{Every Set}} of 30 {{Points}}.},\n  booktitle = {Tools\
+    \ and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}}\
+    \ - 30th {{International Conference}}, {{TACAS}} 2024, {{Held}} as {{Part}} of\
+    \ the {{European Joint Conferences}} on {{Theory}} and {{Practice}} of {{Software}},\
+    \ {{ETAPS}} 2024, {{Luxembourg City}}, {{Luxembourg}}, {{April}} 6-11, 2024, {{Proceedings}},\
+    \ {{Part I}}},\n  author = {Heule, Marijn J. H. and Scheucher, Manfred},\n  year\
+    \ = {2024},\n  pages = {61--80},\n  doi = {10.1007/978-3-031-57246-3_5}\n}\n"
+- name: arXiv
+  url: https://arxiv.org/abs/2403.00737
+  year: 2024
+  month: 3
+  day: 1
