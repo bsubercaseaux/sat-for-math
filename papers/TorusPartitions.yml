@@ -1,0 +1,22 @@
+title: Optimal Partitions of the Flat Torus into Parts of Smaller Diameter
+authors: Protasov, Tolmachev, Voronov
+labels: []
+publications:
+- name: Discrete Optimization
+  url: ''
+  year: 2025
+  bibtex: |
+    @article{protasovOptimalPartitionsFlat2025,
+      title = {Optimal Partitions of the Flat Torus into Parts of Smaller Diameter},
+      author = {Protasov, D. S. and Tolmachev, A. D. and Voronov, V. A.},
+      year = {2025},
+      month = aug,
+      journal = {Discrete Optimization},
+      volume = {57},
+      pages = {100890},
+      issn = {1572-5286},
+      doi = {10.1016/j.disopt.2025.100890},
+      urldate = {2025-05-25},
+      abstract = {We consider the problem of partitioning a two-dimensional flat torus T2 into m sets in order to minimize the maximum diameter of a part. For m{$\leq$}25 we give numerical estimates for the maximum diameter dm(T2) at which the partition exists. Several approaches are proposed to obtain such estimates. In particular, we use the search for mesh partitions via the SAT solver, the global optimization approach for polygonal partitions, and the optimization of periodic hexagonal tilings. For m=3, the exact estimate is proved using elementary topological reasoning.},
+      keywords = {Borsuk problem,Stochastic gradient descent}
+    }

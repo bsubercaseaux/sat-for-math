@@ -1,0 +1,30 @@
+title: 'MathCheck: A Math Assistant via a Combination of Computer Algebra'
+authors: Zulkoski, Ganesh, Czarnecki
+labels: 
+- computer algebra
+publications:
+- name: CADE
+  url: 'https://doi.org/10.1007/978-3-319-21401-6\_41'
+  year: 2015
+  bibtex: |-
+    @inproceedings{DBLP:conf/cade/ZulkoskiGC15,
+      author       = {Edward Zulkoski and
+                      Vijay Ganesh and
+                      Krzysztof Czarnecki},
+      editor       = {Amy P. Felty and
+                      Aart Middeldorp},
+      title        = {MathCheck: {A} Math Assistant via a Combination of Computer Algebra
+                      Systems and {SAT} Solvers},
+      booktitle    = {Automated Deduction - {CADE-25} - 25th International Conference on
+                      Automated Deduction, Berlin, Germany, August 1-7, 2015, Proceedings},
+      series       = {Lecture Notes in Computer Science},
+      volume       = {9195},
+      pages        = {607--622},
+      publisher    = {Springer},
+      year         = {2015},
+      url          = {https://doi.org/10.1007/978-3-319-21401-6\_41},
+      doi          = {10.1007/978-3-319-21401-6\_41},
+      timestamp    = {Thu, 27 Jun 2024 20:49:02 +0200},
+      biburl       = {https://dblp.org/rec/conf/cade/ZulkoskiGC15.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }

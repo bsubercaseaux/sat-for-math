@@ -5,7 +5,7 @@ labels:
 - famous conjectures
 publications:
 - name: SAT
-  url: ''
+  url: https://www.springerprofessional.de/en/solving-and-verifying-the-boolean-pythagorean-triples-problem-vi/10251244
   year: 2016
   dblp_key: conf/sat/HeuleKM16
   bibtex: "@inproceedings{heuleSolvingVerifyingBoolean2016a,\n  title = {Solving and\

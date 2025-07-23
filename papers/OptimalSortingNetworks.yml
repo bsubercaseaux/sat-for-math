@@ -1,0 +1,20 @@
+title: Optimal-Depth Sorting Networks
+authors: Bundala, Codish, Cruz-Filipe, Schneider-Kamp, Závodný
+labels: 
+- sorting networks
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/1412.5302
+  year: 2014
+  month: 12
+  day: 17
+- name: J. Comput. Syst. Sci.
+  url: https://doi.org/10.1016/j.jcss.2016.09.004
+  year: 2017
+  dblp_key: journals/jcss/BundalaCCSZ17
+  bibtex: "@article{DBLP:journals/jcss/BundalaCCSZ17,\n  author       = {Daniel Bundala\
+    \ and\n                  Michael Codish and\n                  Lu{\\'{\\i}}s Cruz{-}Filipe\
+    \ and\n                  Peter Schneider{-}Kamp and\n                  Jakub Z{\\\
+    '{a}}vodn{\\'{y}}},\n  title        = {Optimal-depth sorting networks},\n  journal\
+    \      = {J. Comput. Syst. Sci.},\n  volume       = {84},\n  pages        = {185--204},\n\
+    \  year         = {2017}\n}\n\n"

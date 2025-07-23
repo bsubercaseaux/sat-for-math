@@ -1,0 +1,32 @@
+title: Investigating Simple Drawings of K_n Using SAT
+authors: Bergold, Scheucher
+labels: 
+- graph drawing
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2504.02650
+  year: 2025
+  month: 4
+  day: 3
+  bibtex: "@misc{bergoldInvestigatingSimpleDrawings2025,\n  title = {Investigating\
+    \ {{Simple Drawings}} of \\${{K}}\\_n\\$ Using {{SAT}}},\n  author = {Bergold,\
+    \ Helena and Scheucher, Manfred},\n  year = {2025},\n  month = apr,\n  number\
+    \ = {arXiv:2504.02650},\n  eprint = {2504.02650},\n  primaryclass = {cs},\n  publisher\
+    \ = {arXiv},\n  doi = {10.48550/arXiv.2504.02650},\n  urldate = {2025-04-14},\n\
+    \  abstract = {We present a SAT framework which allows to investigate properties\
+    \ of simple drawings of the complete graph \\$K\\_n\\$ using the power of AI.\
+    \ In contrast to classic imperative programming, where a program is operated step\
+    \ by step, our framework models mathematical questions as Boolean formulas which\
+    \ are then solved using modern SAT solvers. Our framework for simple drawings\
+    \ is based on a characterization via rotation systems and finite forbidden substructures.\
+    \ We showcase its universality by addressing various open problems, reproving\
+    \ previous computational results and deriving several new computational results.\
+    \ In particular, we test and progress on several unavoidable configurations such\
+    \ as variants of Rafla's conjecture on plane Hamiltonian cycles, Harborth's conjecture\
+    \ on empty triangles, and crossing families for general simple drawings as well\
+    \ as for various subclasses. Moreover, based our computational results we propose\
+    \ some new challenging conjectures.},\n  archiveprefix = {arXiv},\n  keywords\
+    \ = {Computer Science - Computational Geometry,Computer Science - Discrete Mathematics,Mathematics\
+    \ - Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/75KJ9W8M/Bergold\
+    \ and Scheucher - 2025 - Investigating Simple Drawings of $K_n$ using SAT.pdf;/Users/bsuberca/Zotero/storage/5GJV5VUT/2504.html}\n\
+    }\n"

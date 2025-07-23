@@ -1,0 +1,27 @@
+title: >-
+  Fast Formal Proof of the Erd\H os--Szekeres Conjecture for Convex Polygons
+  with at Most 6 Points
+authors: Mari{\'c}
+labels: []
+publications:
+- name: Journal of Automated Reasoning
+  url: ''
+  year: 2019
+  bibtex: |
+    @article{maricFastFormalProof2019,
+      title = {Fast {{Formal Proof}} of the {{Erd{\H o}s}}--{{Szekeres Conjecture}} for {{Convex Polygons}} with at {{Most}} 6 {{Points}}},
+      author = {Mari{\'c}, Filip},
+      year = {2019},
+      month = mar,
+      journal = {Journal of Automated Reasoning},
+      volume = {62},
+      number = {3},
+      pages = {301--329},
+      issn = {1573-0670},
+      doi = {10.1007/s10817-017-9423-7},
+      urldate = {2025-05-12},
+      abstract = {A conjecture originally made by Klein and Szekeres in 1932 (now commonly known as ``Erd{\H o}s--Szekeres'' or ``Happy Ending'' conjecture) claims that for every \$\$m {\textbackslash}ge 3\$\$, every set of \$\$2{\textasciicircum}\{m-2\}+1\$\$points in a general position (none three different points are collinear) contains a convex m-gon. The conjecture has been verified for \$\$m {\textbackslash}le 6\$\$. The case \$\$m=6\$\$was solved by Szekeres and Peters and required a huge computer enumeration that took ``more than 3000 GHz hours''. In this paper we improve the solution in several directions. By changing the problem representation, by employing symmetry-breaking and by using modern SAT solvers, we reduce the proving time to around only a half of an hour on an ordinary PC computer (i.e., our proof requires only around 1~GHz hour). Also, we formalize the proof within the Isabelle/HOL proof assistant, making it significantly more reliable.},
+      langid = {english},
+      keywords = {Artificial Intelligence,Convex polygons,Erdos-Szekeres conjecture,Happy ending problem,Interactive theorem proving,Isabelle/HOL,SAT solving},
+      file = {/Users/bsuberca/Zotero/storage/VEKKJBID/Marić - 2019 - Fast Formal Proof of the Erdős–Szekeres Conjecture.pdf}
+    }

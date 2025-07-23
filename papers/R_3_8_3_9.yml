@@ -1,0 +1,34 @@
+title: Verified Certificates via SAT and Computer Algebra Systems for the Ramsey R(3, 8) and R(3, 9) Problems
+authors: Li, Duggan, Bright, Ganesh
+labels: 
+- Ramsey theory
+- computer algebra
+publications:
+- name: IJCAI
+  url: ''
+  year: 2025
+  bibtex: |-
+    @article{DBLP:journals/corr/abs-2502-06055,
+      author       = {Zhengyu Li and
+                      Conor Duggan and
+                      Curtis Bright and
+                      Vijay Ganesh},
+      title        = {Verified Certificates via {SAT} and Computer Algebra Systems for the
+                      Ramsey R(3, 8) and R(3, 9) Problems},
+      journal      = {CoRR},
+      volume       = {abs/2502.06055},
+      year         = {2025},
+      url          = {https://doi.org/10.48550/arXiv.2502.06055},
+      doi          = {10.48550/ARXIV.2502.06055},
+      eprinttype    = {arXiv},
+      eprint       = {2502.06055},
+      timestamp    = {Wed, 12 Mar 2025 22:48:04 +0100},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2502-06055.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- name: arXiv
+  url: https://arxiv.org/abs/2502.06055
+  year: 2025
+  month: 2
+  day: 9
+  

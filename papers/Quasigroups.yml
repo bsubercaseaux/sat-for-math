@@ -1,0 +1,25 @@
+title: >-
+  Investigating the Existence of Large Sets of Idempotent Quasigroups via
+  Satisfiability Testing
+authors: Huang, Ma, Ge, Zhang, Zhang
+labels: []
+publications:
+- name: Automated {{Reasoning}}
+  url: ''
+  year: 2018
+  bibtex: |
+    @inproceedings{huangInvestigatingExistenceLarge2018,
+      title = {Investigating the {{Existence}} of {{Large Sets}} of {{Idempotent Quasigroups}} via {{Satisfiability Testing}}},
+      booktitle = {Automated {{Reasoning}}},
+      author = {Huang, Pei and Ma, Feifei and Ge, Cunjing and Zhang, Jian and Zhang, Hantao},
+      editor = {Galmiche, Didier and Schulz, Stephan and Sebastiani, Roberto},
+      year = {2018},
+      pages = {354--369},
+      publisher = {Springer International Publishing},
+      address = {Cham},
+      doi = {10.1007/978-3-319-94205-6_24},
+      abstract = {In this paper, we describe a method for solving some open problems in design theory based on SAT solvers. Modern SAT solvers are efficient and can produce unsatisfiability proofs. However, the state-of-the-art SAT solvers cannot solve the so-called large set problem of idempotent quasigroups. Two idempotent quasigroups over the same set of elements are said to be disjoint if at any position other than the main diagonal, the two elements from the two idempotent quasigroups at the same position are different. A collection of \$\$n-2\$\$idempotent quasigroups of order n is called a large set if all idempotent quasigroups are mutually disjoint, denoted by LIQ(n). The existence of LIQ(n) satisfying certain identities has been a challenge for modern SAT solvers even if \$\$n = 9\$\$. We will use a finite-model generator to help the SAT solver avoiding symmetric search spaces, and take advantages of both first order logic and the SAT techniques. Furthermore, we use an incremental search strategy to find a maximum number of disjoint idempotent quasigroups, thus deciding the non-existence of large sets. The experimental results show that our method is highly efficient. The use of symmetry breaking is crucial to allow us to solve some instances in reasonable time.},
+      isbn = {978-3-319-94205-6},
+      langid = {english},
+      file = {/Users/bsuberca/Zotero/storage/J6NQENRB/Huang et al. - 2018 - Investigating the Existence of Large Sets of Idemp.pdf}
+    }

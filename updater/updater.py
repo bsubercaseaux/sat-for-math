@@ -8,7 +8,7 @@ import Levenshtein
 from datetime import datetime
 from dataclasses import dataclass, field
 from typing import Optional, List, Dict, Any
-
+import argparse
 
 @dataclass
 class Publication:
@@ -178,11 +178,25 @@ class YAMLHandler:
 
 
 async def main():
+
+    argparser = argparse.ArgumentParser(description="Update paper metadata from arXiv and DBLP.")
+    argparser.add_argument('--interactive', action='store_true', help="Run in interactive mode.")
+    argparser.add_argument('--match', type=str, help="Match string to filter papers.")
+    args = argparser.parse_args()
     papers_dir = "../papers"
     
     for filename in os.listdir(papers_dir):
         file_path = os.path.join(papers_dir, filename)
+        
         if not os.path.isfile(file_path):
+            continue
+            
+        if args.interactive:
+            should_update = input(f"Update {filename}? (y/n): ").strip().lower()
+            if not should_update.startswith('y'):
+                continue
+        
+        if args.match and args.match not in filename:
             continue
         
         # Load paper from YAML

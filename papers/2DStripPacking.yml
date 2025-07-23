@@ -1,0 +1,25 @@
+title: A SAT-based Method for Solving the Two-dimensional Strip Packing Problem
+authors: Soh, Inoue, Tamura, Banbara, Nabeshima
+labels: []
+publications:
+- name: Fundamenta Informaticae
+  url: ''
+  year: 2010
+  bibtex: |
+    @article{sohSATbasedMethodSolving2010,
+      title = {A {{SAT-based Method}} for {{Solving}} the {{Two-dimensional Strip Packing Problem}}},
+      author = {Soh, Takehide and Inoue, Katsumi and Tamura, Naoyuki and Banbara, Mutsunori and Nabeshima, Hidetomo},
+      year = {2010},
+      month = aug,
+      journal = {Fundamenta Informaticae},
+      volume = {102},
+      number = {3-4},
+      pages = {467--487},
+      publisher = {SAGE Publications},
+      issn = {0169-2968},
+      doi = {10.3233/FI-2010-314},
+      urldate = {2025-05-12},
+      abstract = {We propose a satisfiability testing (SAT) based exact approach for solving the two-dimensional strip packing problem (2SPP). In this problem, we are given a set of rectangles and one large rectangle called a strip. The goal of the problem is to pack all rectangles without overlapping, into the strip by minimizing the overall height of the packing. Although the 2SPP has been studied in Operations Research, some instances are still hard to solve. Our method solves the 2SPP by translating it into a SAT problem through a SAT encoding called order encoding. The translated SAT problems tend to be large; thus, we apply several techniques to reduce the search space by symmetry breaking and positional relations of rectangles. To solve a 2SPP, that is, to compute the minimum height of a 2SPP, we need to repeatedly solve similar SAT problems. We thus reuse learned clauses and assumptions from the previously solved SAT problems. To evaluate our approach, we obtained results for 38 instances from the literature and made comparisons with a constraint satisfaction solver and an ad-hoc 2SPP solver.},
+      langid = {english},
+      file = {/Users/bsuberca/Zotero/storage/YRK3PCBM/Soh et al. - 2010 - A SAT-based Method for Solving the Two-dimensional.pdf}
+    }

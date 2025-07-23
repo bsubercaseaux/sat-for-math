@@ -1,0 +1,19 @@
+title: SAT and Lattice Reduction for Integer Factorization
+authors: Ajani, Bright
+labels:
+- integer factorization
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2406.20071
+  year: 2024
+  month: 6
+  day: 28
+- name: ISSAC
+  url: https://doi.org/10.1145/3666000.3669712
+  year: 2024
+  dblp_key: conf/issac/AjaniB24
+  bibtex: "@inproceedings{DBLP:conf/issac/AjaniB24,\n  author       = {Yameen Ajani\
+    \ and\n                  Curtis Bright},\n  title        = {{SAT} and Lattice\
+    \ Reduction for Integer Factorization},\n  booktitle    = {{ISSAC}},\n  pages\
+    \        = {391--399},\n  publisher    = {{ACM}},\n  year         = {2024}\n}\n\
+    \n"

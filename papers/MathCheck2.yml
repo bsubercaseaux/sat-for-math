@@ -1,0 +1,34 @@
+title: 'MathCheck2: A SAT+CAS Verifier for Combinatorial Conjectures'
+authors: Bright, Ganesh, Heinle, Kotsireas, Nejati, Czarnecki
+labels: 
+- computer algebra
+publications:
+- name: CASC
+  url: 'https://doi.org/10.1007/978-3-319-45641-6\_9'
+  year: 2016
+  bibtex: |-
+    @inproceedings{DBLP:conf/casc/BrightGHKNC16,
+      author       = {Curtis Bright and
+                      Vijay Ganesh and
+                      Albert Heinle and
+                      Ilias S. Kotsireas and
+                      Saeed Nejati and
+                      Krzysztof Czarnecki},
+      editor       = {Vladimir P. Gerdt and
+                      Wolfram Koepf and
+                      Werner M. Seiler and
+                      Evgenii V. Vorozhtsov},
+      title        = {MathCheck2: {A} {SAT+CAS} Verifier for Combinatorial Conjectures},
+      booktitle    = {Computer Algebra in Scientific Computing - 18th International Workshop,
+                      {CASC} 2016, Bucharest, Romania, September 19-23, 2016, Proceedings},
+      series       = {Lecture Notes in Computer Science},
+      volume       = {9890},
+      pages        = {117--133},
+      publisher    = {Springer},
+      year         = {2016},
+      url          = {https://doi.org/10.1007/978-3-319-45641-6\_9},
+      doi          = {10.1007/978-3-319-45641-6\_9},
+      timestamp    = {Thu, 27 Jun 2024 20:49:02 +0200},
+      biburl       = {https://dblp.org/rec/conf/casc/BrightGHKNC16.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }

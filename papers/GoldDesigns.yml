@@ -1,0 +1,24 @@
+title: On a Pair of Orthogonal Golf Designs
+authors: Lu, Chen, Cao
+labels: []
+publications:
+- name: Discrete Mathematics
+  url: ''
+  year: 2023
+  bibtex: |
+    @article{luPairOrthogonalGolf2023,
+      title = {On a Pair of Orthogonal Golf Designs},
+      author = {Lu, Hong and Chen, Jianpeng and Cao, Haitao},
+      year = {2023},
+      month = aug,
+      journal = {Discrete Mathematics},
+      volume = {346},
+      number = {8},
+      pages = {113406},
+      issn = {0012-365X},
+      doi = {10.1016/j.disc.2023.113406},
+      urldate = {2025-05-12},
+      abstract = {A collection of n-2 mutually disjoint idempotent symmetric quasigroups of order n is called a golf design. Two golf designs of order n are said to be orthogonal, denoted by OG(n), if for any idempotent symmetric quasigroup in one golf design, an orthogonal mate can be found in the other golf design, and no two idempotent symmetric quasigroups in one golf design share a common orthogonal mate. In this paper, we give the first three examples of OG(n) for n{$\in$}\{13,15,17\} using starter adder method. We also present a recursive construction and apply it to prove that an OG(13n+2) exists for any positive integer n.},
+      keywords = {Golf design,Large set,Orthogonal,Quasigroup,Starter},
+      file = {/Users/bsuberca/Zotero/storage/Y5SHJTTW/S0012365X23000924.html}
+    }

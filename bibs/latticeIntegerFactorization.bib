@@ -1,0 +1,16 @@
+@inproceedings{ajaniSATLatticeReduction2024,
+  title = {{{SAT}} and {{Lattice Reduction}} for {{Integer Factorization}}},
+  booktitle = {Proceedings of the 2024 {{International Symposium}} on {{Symbolic}} and {{Algebraic Computation}}},
+  author = {Ajani, Yameen and Bright, Curtis},
+  year = {2024},
+  month = jul,
+  series = {{{ISSAC}} '24},
+  pages = {391--399},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3666000.3669712},
+  urldate = {2025-05-07},
+  abstract = {The difficulty of factoring large integers into primes is the basis for cryptosystems such as RSA. Due to the widespread popularity of RSA, there have been many proposed attacks on the factorization problem such as side-channel attacks where some bits of the prime factors are available. When enough bits of the prime factors are known, two methods that are effective at solving the factorization problem are satisfiability (SAT) solvers and Coppersmith's method. The SAT approach reduces the factorization problem to a Boolean satisfiability problem, while Coppersmith's approach uses lattice basis reduction. Both methods have their advantages, but they also have their limitations: Coppersmith's method does not apply when the known bit positions are randomized, while SAT-based methods can take advantage of known bits in arbitrary locations, but have no knowledge of the algebraic structure exploited by Coppersmith's method. In this paper we describe a new hybrid SAT and computer algebra approach to efficiently solve random leaked-bit factorization problems. Specifically, Coppersmith's method is invoked by a SAT solver to determine whether a partial bit assignment can be extended to a complete assignment. Our hybrid implementation solves random leaked-bit factorization problems significantly faster than either a pure SAT or pure computer algebra approach.},
+  isbn = {9798400706967},
+  file = {/Users/bsuberca/Zotero/storage/75XE88MQ/Ajani and Bright - 2024 - SAT and Lattice Reduction for Integer Factorizatio.pdf}
+}

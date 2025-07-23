@@ -1,0 +1,28 @@
+title: The SAT+CAS method for combinatorial search with applications to best matrices
+authors: Bright, Dokovic, Kotsireas, Ganesh
+labels: 
+- linear algebra
+- computer algebra
+publications:
+- name: Ann. Math. Artif. Intell.
+  url: https://doi.org/10.1007/s10472-019-09681-3
+  year: 2019
+  bibtex: |-
+    @article{DBLP:journals/amai/BrightDKG19,
+      author       = {Curtis Bright and
+                      Dragomir Z. Dokovic and
+                      Ilias S. Kotsireas and
+                      Vijay Ganesh},
+      title        = {The {SAT+CAS} method for combinatorial search with applications to
+                      best matrices},
+      journal      = {Ann. Math. Artif. Intell.},
+      volume       = {87},
+      number       = {4},
+      pages        = {321--342},
+      year         = {2019},
+      url          = {https://doi.org/10.1007/s10472-019-09681-3},
+      doi          = {10.1007/S10472-019-09681-3},
+      timestamp    = {Sun, 19 Jan 2025 13:56:44 +0100},
+      biburl       = {https://dblp.org/rec/journals/amai/BrightDKG19.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }

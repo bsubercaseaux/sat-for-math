@@ -23,7 +23,7 @@ const Header = () => {
           component="div"
           sx={{ ml: 2, mr: 4, fontWeight: "bold" }}
         >
-          Satisfiability for Mathematics
+          SAT for Mathematics
         </Typography>
         {pages.map((page) => (
           <Button

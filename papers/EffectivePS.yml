@@ -1,0 +1,22 @@
+title: Effective Problem Solving Using SAT Solvers
+authors: Bright, Gerhard, Kotsireas, Ganesh
+labels:
+- survey
+- computer algebra
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/1906.06251
+  year: 2019
+  month: 6
+  day: 14
+- name: MC
+  url: https://doi.org/10.1007/978-3-030-41258-6_15
+  year: 2019
+  dblp_key: conf/mc2/BrightGKG19
+  bibtex: "@inproceedings{DBLP:conf/mc2/BrightGKG19,\n  author       = {Curtis Bright\
+    \ and\n                  J{\\\"{u}}rgen Gerhard and\n                  Ilias S.\
+    \ Kotsireas and\n                  Vijay Ganesh},\n  title        = {Effective\
+    \ Problem Solving Using {SAT} Solvers},\n  booktitle    = {{MC}},\n  series  \
+    \     = {Communications in Computer and Information Science},\n  volume      \
+    \ = {1125},\n  pages        = {205--219},\n  publisher    = {Springer},\n  year\
+    \         = {2019}\n}\n\n"

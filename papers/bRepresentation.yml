@@ -1,0 +1,19 @@
+title: Using Finite Automata to Compute the Base-b Representation of the Golden Ratio and Other Quadratic Irrationals
+authors: Barnoff, Bright, Shallit
+labels: 
+- automata theory
+- irrational numbers
+publications:
+- name: CIAA
+  url: https://link.springer.com/chapter/10.1007/978-3-031-71112-1_3
+  year: 2024
+  bibtex: "@misc{UsingFiniteAutomata,\n  title = {Using {{Finite Automata}} to~{{Compute}}\
+    \ the~{{Base-b Representation}} of~the~{{Golden Ratio}} and~{{Other Quadratic\
+    \ Irrationals}} {\\textbar} {{SpringerLink}}},\n  urldate = {2025-05-09},\n  howpublished\
+    \ = {https://link.springer.com/chapter/10.1007/978-3-031-71112-1\\_3},\n  file\
+    \ = {/Users/bsuberca/Zotero/storage/ZMDZUCEE/978-3-031-71112-1_3.html}\n}\n"
+- name: arXiv
+  url: https://arxiv.org/abs/2405.02727
+  year: 2024
+  month: 5
+  day: 4
