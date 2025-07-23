@@ -3,22 +3,42 @@ authors: Bergold, Felsner, Scheucher
 labels: []
 publications:
 - name: arXiv
-  url: ''
+  url: https://arxiv.org/abs/2303.04079
   year: 2023
-  bibtex: |
-    @misc{bergoldExtensionTheoremSignotopes2023,
-      title = {An Extension Theorem for Signotopes},
-      author = {Bergold, Helena and Felsner, Stefan and Scheucher, Manfred},
-      year = {2023},
-      month = mar,
-      number = {arXiv:2303.04079},
-      eprint = {2303.04079},
-      primaryclass = {math},
-      publisher = {arXiv},
-      doi = {10.48550/arXiv.2303.04079},
-      urldate = {2025-05-09},
-      abstract = {In 1926, Levi showed that, for every pseudoline arrangement \${\textbackslash}mathcal\{A\}\$ and two points in the plane, \${\textbackslash}mathcal\{A\}\$ can be extended by a pseudoline which contains the two prescribed points. Later extendability was studied for arrangements of pseudohyperplanes in higher dimensions. While the extendability of an arrangement of proper hyperplanes in \${\textbackslash}mathbb\{R\}{\textasciicircum}d\$ with a hyperplane containing \$d\$ prescribed points is trivial, Richter-Gebert found an arrangement of pseudoplanes in \${\textbackslash}mathbb\{R\}{\textasciicircum}3\$ which cannot be extended with a pseudoplane containing two particular prescribed points. In this article, we investigate the extendability of signotopes, which are a combinatorial structure encoding a rich subclass of pseudohyperplane arrangements. Our main result is that signotopes of odd rank are extendable in the sense that for two prescribed crossing points we can add an element containing them. Moreover, we conjecture that in all even ranks \$r {\textbackslash}geq 4\$ there exist signotopes which are not extendable for two prescribed points. Our conjecture is supported by examples in ranks 4, 6, 8, 10, and 12 that were found with a SAT based approach.},
-      archiveprefix = {arXiv},
-      keywords = {Computer Science - Computational Geometry,Mathematics - Combinatorics},
-      file = {/Users/bsuberca/Zotero/storage/9X8MDBU7/Bergold et al. - 2023 - An extension theorem for signotopes.pdf;/Users/bsuberca/Zotero/storage/VGLCCAPX/2303.html}
-    }
+  month: 3
+  day: 7
+  bibtex: "@misc{bergoldExtensionTheoremSignotopes2023,\n  title = {An Extension Theorem\
+    \ for Signotopes},\n  author = {Bergold, Helena and Felsner, Stefan and Scheucher,\
+    \ Manfred},\n  year = {2023},\n  month = mar,\n  number = {arXiv:2303.04079},\n\
+    \  eprint = {2303.04079},\n  primaryclass = {math},\n  publisher = {arXiv},\n\
+    \  doi = {10.48550/arXiv.2303.04079},\n  urldate = {2025-05-09},\n  abstract =\
+    \ {In 1926, Levi showed that, for every pseudoline arrangement \\${\\textbackslash}mathcal\\\
+    {A\\}\\$ and two points in the plane, \\${\\textbackslash}mathcal\\{A\\}\\$ can\
+    \ be extended by a pseudoline which contains the two prescribed points. Later\
+    \ extendability was studied for arrangements of pseudohyperplanes in higher dimensions.\
+    \ While the extendability of an arrangement of proper hyperplanes in \\${\\textbackslash}mathbb\\\
+    {R\\}{\\textasciicircum}d\\$ with a hyperplane containing \\$d\\$ prescribed points\
+    \ is trivial, Richter-Gebert found an arrangement of pseudoplanes in \\${\\textbackslash}mathbb\\\
+    {R\\}{\\textasciicircum}3\\$ which cannot be extended with a pseudoplane containing\
+    \ two particular prescribed points. In this article, we investigate the extendability\
+    \ of signotopes, which are a combinatorial structure encoding a rich subclass\
+    \ of pseudohyperplane arrangements. Our main result is that signotopes of odd\
+    \ rank are extendable in the sense that for two prescribed crossing points we\
+    \ can add an element containing them. Moreover, we conjecture that in all even\
+    \ ranks \\$r {\\textbackslash}geq 4\\$ there exist signotopes which are not extendable\
+    \ for two prescribed points. Our conjecture is supported by examples in ranks\
+    \ 4, 6, 8, 10, and 12 that were found with a SAT based approach.},\n  archiveprefix\
+    \ = {arXiv},\n  keywords = {Computer Science - Computational Geometry,Mathematics\
+    \ - Combinatorics},\n  file = {/Users/bsuberca/Zotero/storage/9X8MDBU7/Bergold\
+    \ et al. - 2023 - An extension theorem for signotopes.pdf;/Users/bsuberca/Zotero/storage/VGLCCAPX/2303.html}\n\
+    }\n"
+- name: SoCG
+  url: https://doi.org/10.4230/LIPIcs.SoCG.2023.17
+  year: 2023
+  dblp_key: conf/compgeom/BergoldFS23
+  bibtex: "@inproceedings{DBLP:conf/compgeom/BergoldFS23,\n  author       = {Helena\
+    \ Bergold and\n                  Stefan Felsner and\n                  Manfred\
+    \ Scheucher},\n  title        = {An Extension Theorem for Signotopes},\n  booktitle\
+    \    = {SoCG},\n  series       = {LIPIcs},\n  volume       = {258},\n  pages \
+    \       = {17:1--17:14},\n  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum\
+    \ f{\\\"{u}}r Informatik},\n  year         = {2023}\n}\n\n"

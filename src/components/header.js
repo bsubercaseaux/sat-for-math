@@ -5,7 +5,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
 
-const baseUrl = "https://bsubercaseaux.github.io/sat-for-math";
+const baseUrl = "https://sat-for-math.com";
 const pages = [
   { name: "Paper List", href: `${baseUrl}/` },
   { name: "Further Material", href: `${baseUrl}/material` },

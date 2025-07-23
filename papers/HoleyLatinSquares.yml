@@ -1,8 +1,17 @@
 title: Investigating the~Existence of~Holey Latin Squares via~Satisfiability Testing
 authors: Liu, Han, Jia, Huang, Ma, Zhang, Zhang
-labels: []
+labels: 
+- combinatorial design
 publications:
-- name: '{{PRICAI}} 2023: {{Trends}} in {{Artificial Intelligence}}'
-  url: ''
-  year: 2024
-  bibtex: "@inproceedings{liuInvestigatingExistenceHoley2024,\n  title = {Investigating the~{{Existence}} of~{{Holey Latin Squares}} via~{{Satisfiability Testing}}},\n  booktitle = {{{PRICAI}} 2023: {{Trends}} in {{Artificial Intelligence}}},\n  author = {Liu, Minghao and Han, Rui and Jia, Fuqi and Huang, Pei and Ma, Feifei and Zhang, Hantao and Zhang, Jian},\n  editor = {Liu, Fenrong and Sadanandan, Arun Anand and Pham, Duc Nghia and Mursanto, Petrus and Lukose, Dickson},\n  year = {2024},\n  pages = {410--422},\n  publisher = {Springer Nature},\n  address = {Singapore},\n  doi = {10.1007/978-981-99-7022-3_38},\n  abstract = {Holey Latin square (HLS) is a special combinatorial design of interest to mathematicians and is helpful in the construction of many important structures in design theory. In this paper, we investigate the existence of HLSs satisfying the seven kinds of identities with automated reasoning techniques. We formulate this problem as propositional logic formulae. Since state-of-the-art SAT solvers have difficulty solving many HLS problems, we further propose a symmetry breaking method, called partially ordered HLS (POHLS), to eliminate isomorphic solutions. We have achieved the following goals through experimental evaluation. First, we have solved a dozen of open problems interested by mathematicians. Second, we identify the impact of different encodings. Third, we demonstrate the advantages of SAT solver over other FOL-based solvers. Fourth, we show that the proposed POHLS reduction can improve the efficiency of solving and find the complementarity between two types of symmetry breaking techniques.},\n  isbn = {978-981-9970-22-3},\n  langid = {english},\n  keywords = {Combinatorial designs,Holey Latin square,Symmetry breaking},\n  file = {/Users/bsuberca/Zotero/storage/W5RF6MBD/Liu et al. - 2024 - Investigating the\_Existence of\_Holey Latin Squares.pdf}\n}\n"
+- name: PRICAI
+  url: https://doi.org/10.1007/978-981-99-7022-3_38
+  year: 2023
+  dblp_key: conf/pricai/LiuHJHMZZ23
+  bibtex: "@inproceedings{DBLP:conf/pricai/LiuHJHMZZ23,\n  author       = {Minghao\
+    \ Liu and\n                  Rui Han and\n                  Fuqi Jia and\n   \
+    \               Pei Huang and\n                  Feifei Ma and\n             \
+    \     Hantao Zhang and\n                  Jian Zhang},\n  title        = {Investigating\
+    \ the Existence of Holey Latin Squares via Satisfiability\n                  Testing},\n\
+    \  booktitle    = {{PRICAI} {(2)}},\n  series       = {Lecture Notes in Computer\
+    \ Science},\n  volume       = {14326},\n  pages        = {410--422},\n  publisher\
+    \    = {Springer},\n  year         = {2023}\n}\n\n"

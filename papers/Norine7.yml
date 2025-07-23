@@ -1,13 +1,10 @@
-title: Proving Norine's Conjecture Holds for $n$
-authors: ''
-labels: []
+title: Proving Norine's Conjecture Holds for $n = 7$ via SAT Solvers
+authors: Frankston, Scheinerman
+labels: 
+- graph coloring
 publications:
-- name: ''
-  url: ''
-  year: ''
-  bibtex: |
-    @misc{ProvingNorinesConjecture,
-      title = {Proving {{Norine}}'s {{Conjecture}} Holds for {$n$}=7 via {{SAT}} Solvers},
-      urldate = {2025-05-12},
-      howpublished = {https://arxiv.org/html/2408.02474v1}
-    }
+- name: arXiv
+  url: https://arxiv.org/abs/2408.02474
+  year: 2024
+  month: 8
+  day: 5

@@ -37,12 +37,15 @@ async def update_paper_from_arxiv(paper: Paper, acc: int) -> None:
         async with session.get(query) as response:
             resp = await response.text()
     
+    print(f"Querying arXiv for {paper.title} with query: {query}")
+    print(f"Response = {resp[:100]}")
     # Parse XML response
     ns = {'atom': 'http://www.w3.org/2005/Atom'}
     root = ET.fromstring(resp)
     entries = root.findall('.//atom:entry', ns)
     
     for entry in entries:
+        print(f"Processing entry: {entry}")
         title_elem = entry.find('./atom:title', ns)
         if title_elem is None:
             continue
@@ -50,7 +53,8 @@ async def update_paper_from_arxiv(paper: Paper, acc: int) -> None:
         title = title_elem.text
         if Levenshtein.distance(title.lower(), paper.title.lower()) < acc:
             # Update authors if not already set
-            if paper.authors is None:
+            print(f"Authors : {paper.authors}")
+            if paper.authors is None or paper.authors == '':
                 print(f"Setting authors of {paper.title} from arXiv!")
                 authors = []
                 for author in entry.findall('./atom:author/atom:name', ns):
@@ -225,7 +229,7 @@ async def main():
         }
         
         print(f"Updated {paper.title} with {len(paper.publications)} publications.")
-        print(f"Publicatoins: {[pub for pub in paper.publications]}")
+        print(f"Publications: {[pub for pub in paper.publications]}")
         print('\n\n')
         
         YAMLHandler.save(file_path, updated_data)
