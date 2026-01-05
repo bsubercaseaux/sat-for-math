@@ -10,6 +10,7 @@ Just run `yarn deploy`
 # Update papers
 
 ```
+cd updater
 python3 updater.py --match <.yml filename substring>
 ``` 
 

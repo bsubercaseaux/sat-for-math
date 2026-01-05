@@ -1,8 +1,9 @@
 title: >-
-  Fast Formal Proof of the Erd\H os--Szekeres Conjecture for Convex Polygons
+  Fast Formal Proof of the Erdős--Szekeres Conjecture for Convex Polygons
   with at Most 6 Points
-authors: Mari{\'c}
-labels: []
+authors: Marić
+labels: 
+- discrete geometry
 publications:
 - name: Journal of Automated Reasoning
   url: ''

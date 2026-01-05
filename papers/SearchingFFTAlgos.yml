@@ -1,0 +1,18 @@
+title: Generating and Searching Families of FFT Algorithms
+authors: Haynal, Haynal
+labels: []
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/1103.5740
+  year: 2011
+  month: 3
+  day: 29
+- name: J. Satisf. Boolean Model. Comput.
+  url: https://doi.org/10.3233/sat190084
+  year: 2011
+  dblp_key: journals/jsat/HaynalH11
+  bibtex: "@article{DBLP:journals/jsat/HaynalH11,\n  author       = {Steve Haynal\
+    \ and\n                  Heidi Haynal},\n  title        = {Generating and Searching\
+    \ Families of {FFT} Algorithms},\n  journal      = {J. Satisf. Boolean Model.\
+    \ Comput.},\n  volume       = {7},\n  number       = {4},\n  pages        = {145--187},\n\
+    \  year         = {2011}\n}\n\n"

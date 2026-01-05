@@ -85,8 +85,10 @@ const PRIOR_LABEL = "prior/related work";
 let SPECIAL_LABELS = [...TYPE_LABELS];// [...TYPE_LABELS, PRIOR_LABEL];
 
 const PaperList = ({ data }) => {
+  console.log(data);
   // preprocessing
   const allYears = data.flatMap((paper) =>
+    console.log(paper) ||
     paper.publications.flatMap((pub) => pub.year)
   );
   let distinctYears = [...new Set(allYears)];

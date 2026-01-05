@@ -1,0 +1,16 @@
+title: 'Solution of the Last Open Four-Colored Rectangle-Free Grid: An Extremely Complex
+  Multiple-Valued Problem'
+authors: Steinbach, Posthoff
+labels: 
+- Ramsey theory
+publications:
+- name: ISMVL
+  url: https://doi.org/10.1109/ISMVL.2013.51
+  year: 2013
+  dblp_key: conf/ismvl/SteinbachP13
+  bibtex: "@inproceedings{DBLP:conf/ismvl/SteinbachP13,\n  author       = {Bernd Steinbach\
+    \ and\n                  Christian Posthoff},\n  title        = {Solution of the\
+    \ Last Open Four-Colored Rectangle-Free Grid: An Extremely\n                 \
+    \ Complex Multiple-Valued Problem},\n  booktitle    = {{ISMVL}},\n  pages    \
+    \    = {302--309},\n  publisher    = {{IEEE} Computer Society},\n  year      \
+    \   = {2013}\n}\n\n"

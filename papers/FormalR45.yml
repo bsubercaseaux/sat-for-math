@@ -1,0 +1,19 @@
+title: A Formal Proof of R(4,5)=25
+authors: Gauthier, Brown
+labels: 
+- Ramsey theory
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2404.01761
+  year: 2024
+  month: 4
+  day: 2
+- name: ITP
+  url: https://doi.org/10.4230/LIPIcs.ITP.2024.16
+  year: 2024
+  dblp_key: conf/itp/GauthierB24
+  bibtex: "@inproceedings{DBLP:conf/itp/GauthierB24,\n  author       = {Thibault Gauthier\
+    \ and\n                  Chad E. Brown},\n  title        = {A Formal Proof of\
+    \ R(4, 5)=25},\n  booktitle    = {{ITP}},\n  series       = {LIPIcs},\n  volume\
+    \       = {309},\n  pages        = {16:1--16:18},\n  publisher    = {Schloss Dagstuhl\
+    \ - Leibniz-Zentrum f{\\\"{u}}r Informatik},\n  year         = {2024}\n}\n\n"

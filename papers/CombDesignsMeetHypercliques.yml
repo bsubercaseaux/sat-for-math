@@ -1,0 +1,18 @@
+title: "Combinatorial Designs Meet Hypercliques: Higher Lower Bounds for Klee\u2019\
+  s Measure Problem and Related Problems in Dimensions d \u2265 4"
+authors: "Gorbachev, K\xFCnnemann"
+labels: 
+- discrete geometry
+- combinatorial designs
+publications:
+- name: SoCG
+  url: https://doi.org/10.4230/LIPIcs.SoCG.2023.36
+  year: 2023
+  dblp_key: conf/compgeom/GorbachevK23
+  bibtex: "@inproceedings{DBLP:conf/compgeom/GorbachevK23,\n  author       = {Egor\
+    \ Gorbachev and\n                  Marvin K{\\\"{u}}nnemann},\n  title       \
+    \ = {Combinatorial Designs Meet Hypercliques: Higher Lower Bounds for Klee's\n\
+    \                  Measure Problem and Related Problems in Dimensions d {\\(\\\
+    geq\\)} 4},\n  booktitle    = {SoCG},\n  series       = {LIPIcs},\n  volume  \
+    \     = {258},\n  pages        = {36:1--36:14},\n  publisher    = {Schloss Dagstuhl\
+    \ - Leibniz-Zentrum f{\\\"{u}}r Informatik},\n  year         = {2023}\n}\n\n"

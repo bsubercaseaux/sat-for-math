@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/sat-for-math`,
+  pathPrefix: ``,
   siteMetadata: {
     title: `SAT4Math`,
     siteUrl: `https://sat4math.com`

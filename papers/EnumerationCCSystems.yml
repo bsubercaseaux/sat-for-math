@@ -1,9 +1,9 @@
-title: Farad\v zev Read-type Enumeration of Non-Isomorphic CC Systems
-authors: Bankovi{\'c}, Mari{\'c}
+title: Faradžev Read-type Enumeration of Non-Isomorphic CC Systems
+authors: Banković, Marić
 labels: []
 publications:
 - name: Computational Geometry
-  url: ''
+  url: https://poincare.matf.bg.ac.rs/~milan.bankovic/ccsystems.pdf
   year: 2021
   bibtex: |
     @article{bankovicFaradzevReadtypeEnumeration2021,

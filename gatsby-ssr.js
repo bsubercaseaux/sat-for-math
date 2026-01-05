@@ -2,8 +2,6 @@ import * as React from 'react'
 import { CacheProvider } from '@emotion/react'
 import createCache from '@emotion/cache'
 
-require("prismjs/themes/prism-solarizedlight.css")
-
 const cache = createCache({ key: 'css' })
 
 export const wrapRootElement = ({ element }) => {

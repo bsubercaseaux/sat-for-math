@@ -1,0 +1,18 @@
+title: Zero-sum squares in $\{-1, 1\}$-matrices with low discrepancy
+authors: Johnston
+labels: []
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2010.10310
+  year: 2020
+  month: 10
+  day: 20
+- name: Electron. J. Comb.
+  url: https://doi.org/10.37236/10928
+  year: 2023
+  dblp_key: journals/combinatorics/Johnston23
+  bibtex: "@article{DBLP:journals/combinatorics/Johnston23,\n  author       = {Tom\
+    \ Johnston},\n  title        = {Zero-Sum Squares in {\\textdollar}{\\textbackslash}\\\
+    {-1, 1{\\textbackslash}\\}{\\textdollar}-Matrices\n                  with Low\
+    \ Discrepancy},\n  journal      = {Electron. J. Comb.},\n  volume       = {30},\n\
+    \  number       = {2},\n  year         = {2023}\n}\n\n"

@@ -5,9 +5,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
 
-const baseUrl = "https://sat-for-math.com";
+const baseUrl = "https://sat4math.com";
 const pages = [
   { name: "Paper List", href: `${baseUrl}/` },
+  { name: "Tutorials", href: `${baseUrl}/tutorials` },
   { name: "Further Material", href: `${baseUrl}/material` },
   { name: "How to Contribute", href: `${baseUrl}/contribute` },
   { name: "About", href: `${baseUrl}/about` },

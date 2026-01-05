@@ -4,7 +4,7 @@ labels:
 - circuit complexity
 publications:
 - name: DATE
-  url: ''
+  url: https://past.date-conference.com/proceedings-archive/2018/pdf/1066.pdf
   year: 2018
   dblp_key: conf/date/Kulikov18
   bibtex: "@inproceedings{kulikovImprovingCircuitSize2018,\n  title = {Improving Circuit\
