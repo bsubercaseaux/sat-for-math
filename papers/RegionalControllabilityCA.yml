@@ -1,0 +1,16 @@
+title: Regional Controllability of Cellular Automata as a SAT Problem
+authors: Bagnoli, Dridi, Fates
+labels:
+- cellular automata
+publications:
+- name: arXiv
+  url: https://arxiv.org/abs/2504.03691
+  year: 2025
+  month: 3
+  day: 23
+- name: Natural Computing
+  url: https://doi.org/10.1007/s11047-025-10061-6
+  year: 2026
+  month: 1
+  day: 5
+  bibtex: "@article{bagnoliRegionalControllabilityCellular2026,\n  author = {Bagnoli, Franco and Dridi, Sara and Fat{\\`{e}}s, Nazim},\n  title = {Regional controllability of cellular automata as a SAT problem},\n  journal = {Natural Computing},\n  volume = {25},\n  number = {1},\n  pages = {2},\n  year = {2026},\n  doi = {10.1007/s11047-025-10061-6}\n}\n"

@@ -1,0 +1,11 @@
+title: Computer-Aided Constructions of Commafree Codes
+authors: Windsor
+labels:
+- coding theory
+publications:
+- name: J. Autom. Reason.
+  url: https://doi.org/10.1007/s10817-023-09662-6
+  year: 2023
+  month: 2
+  day: 17
+  bibtex: "@article{windsorComputerAidedConstructionsCommafree2023,\n  author = {Windsor, Aaron A.},\n  title = {Computer-Aided Constructions of Commafree Codes},\n  journal = {Journal of Automated Reasoning},\n  volume = {67},\n  number = {1},\n  pages = {12},\n  year = {2023},\n  doi = {10.1007/s10817-023-09662-6}\n}\n"

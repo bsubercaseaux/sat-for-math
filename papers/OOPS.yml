@@ -1,0 +1,13 @@
+title: 'OOPS: Optimized One-Planarity Solver via SAT'
+authors: Pupyrev
+labels:
+- graph drawing
+- graph theory
+publications:
+- name: GD
+  url: https://doi.org/10.4230/LIPIcs.GD.2025.14
+  year: 2025
+  month: 11
+  day: 26
+  dblp_key: conf/gd/Pupyrev25
+  bibtex: "@inproceedings{pupyrevOOPSOptimizedOnePlanarity2025,\n  author = {Pupyrev, Sergey},\n  title = {{OOPS: Optimized One-Planarity Solver via SAT}},\n  booktitle = {33rd International Symposium on Graph Drawing and Network Visualization (GD 2025)},\n  pages = {14:1--14:19},\n  series = {Leibniz International Proceedings in Informatics (LIPIcs)},\n  volume = {357},\n  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"{u}}r Informatik},\n  year = {2025},\n  doi = {10.4230/LIPIcs.GD.2025.14}\n}\n"

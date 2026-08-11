@@ -50,13 +50,17 @@ To get started, the following notebook shows the basic usage of the PySAT librar
     <a href="https://colab.research.google.com/drive/1188nOlXmZ6D3EI44cFDdCFNSkbzeo9KW?usp=sharing">Small Cages SAT</a>: Find regular graphs of small girth. (<a href="https://colab.research.google.com/drive/1c1GqgexFVqD_t03TmVhVUlLD9bwo00td?usp=sharing">Solution</a>)
   </div>
 </li>
-<li>
+<li style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
  <img src="/images/erdos_disc.jpg" alt="Boolean Erdős Discrepancy Problem via SAT" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; flex-shrink: 0;" />
-  <a href="https://colab.research.google.com/drive/1g-s6vaKAvgTC5cgI4od9vQuSLCYtMtHK?usp=sharing"> Boolean Erdős Discrepancy Problem via SAT</a>: Recreate the solution to a long-standing open problem in a couple of minutes! (<a href="https://colab.research.google.com/drive/1iDjhoMG6zSD3sTTj0cgXAyTqhRT_1jQn?usp=sharing">Solution</a>)
+  <div>
+    <a href="https://colab.research.google.com/drive/1g-s6vaKAvgTC5cgI4od9vQuSLCYtMtHK?usp=sharing">Boolean Erdős Discrepancy Problem via SAT</a>: Recreate the solution to a long-standing open problem in a couple of minutes! (<a href="https://colab.research.google.com/drive/1iDjhoMG6zSD3sTTj0cgXAyTqhRT_1jQn?usp=sharing">Solution</a>)
+  </div>
 </li>
-<li>
+<li style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
   <img src="/images/kaplansky_giles.jpeg" alt="Kaplanksy's Unit Conjecture via SAT" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; flex-shrink: 0;" />
-  <a href="https://colab.research.google.com/drive/1Oeseko7U3c8stNPxCIQftEhVHZZrRiS3?usp=sharing"> Kaplanksy's Unit Conjecture via SAT (thanks to Giles Gardam)</a>: Let's recreate a counterexample that was once open for 80 years, which Giles Gardam found via SAT in 2021! (<a href="https://drive.google.com/file/d/1J59pZAKLydGwhkjc1Q3ZpzrAvWsm7j0u/view?usp=sharing">Solution</a>)
+  <div>
+    <a href="https://colab.research.google.com/drive/1Oeseko7U3c8stNPxCIQftEhVHZZrRiS3?usp=sharing">Kaplanksy's Unit Conjecture via SAT (thanks to Giles Gardam)</a>: Let's recreate a counterexample that was once open for 80 years, which Giles Gardam found via SAT in 2021! (<a href="https://colab.research.google.com/drive/1VlMQBNUOBDnmmqEXF3CEaAwC3Hb1STnm?usp=sharing">Solution</a>)
+  </div>
 </li>
 
 <li style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
@@ -66,4 +70,3 @@ To get started, the following notebook shows the basic usage of the PySAT librar
   </div>
 </li>
 </ul>
-

@@ -1,0 +1,11 @@
+title: The Pancake Graph of Order 10 Is 4-Colorable
+authors: Tan, Asuncion, Lim, Soos, Ikeda
+labels:
+- graph coloring
+publications:
+- name: ICoMS
+  url: https://doi.org/10.1145/3613347.3613348
+  year: 2023
+  month: 7
+  day: 14
+  bibtex: "@inproceedings{tanPancakeGraphOrder2023,\n  author = {Tan, Renzo Roel Perez and Asuncion, Aldrich Ellis Catapang and Lim, Brian Godwin Sy and Soos, Mate and Ikeda, Kazushi},\n  title = {The Pancake Graph of Order 10 Is 4-Colorable},\n  booktitle = {Proceedings of the 2023 6th International Conference on Mathematics and Statistics},\n  pages = {1--6},\n  publisher = {Association for Computing Machinery},\n  year = {2023},\n  doi = {10.1145/3613347.3613348}\n}\n"
