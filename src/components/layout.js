@@ -1,26 +1,19 @@
-import { Container } from "@mui/material";
 import * as React from "react";
 import PropTypes from "prop-types";
 import Header from "./header";
 import Footer from "./footer";
 
-
+import "@fontsource-variable/newsreader/opsz.css";
+import "@fontsource-variable/newsreader/opsz-italic.css";
 import "./layout.css";
 
 const Layout = ({ children }) => (
-  <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", position: 'relative' }}>
+  <div className="site-frame">
     <Header />
-    <div>
-      <main>
-        <Container maxWidth="None" sx={{
-        // display: 'flex',
-        // flexDirection: 'column',
-        flex: '1',
-        // minHeight: '100vh', // This ensures the container is at least full viewport height
-      }}>{children}</Container>
-      </main>
-    </div>
-    <Footer/>
+    <main id="main-content" className="site-main" tabIndex="-1">
+      <div className="site-shell site-content">{children}</div>
+    </main>
+    <Footer />
   </div>
 );
 

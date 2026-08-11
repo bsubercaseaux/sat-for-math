@@ -1,54 +1,29 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { ThemeProvider } from "@mui/material/styles";
+import Layout from "../components/layout";
+import theme from "../theme";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
+const NotFoundPage = () => (
+  <>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <article className="not-found">
+          <p className="editorial-kicker">Error 404</p>
+          <h1>That page is not in the index.</h1>
+          <p>
+            The address may have changed, or the page may no longer exist. The
+            paper catalogue is a good place to continue.
+          </p>
+          <Link className="text-button" to="/">
+            Return to the paper catalogue
+          </Link>
+        </article>
+      </Layout>
+    </ThemeProvider>
+  </>
+);
 
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-};
-
-// markup
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  );
-};
+export const Head = () => <title>Page not found · SAT for Mathematics</title>;
 
 export default NotFoundPage;

@@ -2,10 +2,10 @@ module.exports = {
   pathPrefix: ``,
   siteMetadata: {
     title: `SAT4Math`,
-    siteUrl: `https://sat4math.com`
+    siteUrl: `https://sat4math.com`,
   },
   plugins: [
-    `gatsby-plugin-emotion`, 
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -15,15 +15,15 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
-              rel: "noopener noreferrer"
-            }
+              rel: "noopener noreferrer",
+            },
           },
           `gatsby-remark-prismjs-copy-button`,
           {
@@ -64,7 +64,7 @@ module.exports = {
               // existing language definition. More details on this option can be
               // found under the header "Add new language definition or extend an
               // existing language" below.
-              languageExtensions: [ ],
+              languageExtensions: [],
               // Customize the prompt used in shell output
               // Values below are default
               prompt: {
@@ -85,13 +85,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-WJCFMQ7HGP"
-        ],
+        trackingIds: ["G-WJCFMQ7HGP"],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
           anonymize_ip: true,
           cookie_expires: 0,
         },
@@ -103,8 +100,6 @@ module.exports = {
           respectDNT: true,
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**", "/do-not-track/me/too/"],
-          // Defaults to https://www.googletagmanager.com
-          origin: "YOUR_SELF_HOSTED_ORIGIN",
           // Delays processing pageview events on route update (in milliseconds)
           delayOnRouteUpdate: 0,
         },

@@ -1,5 +1,5 @@
 ---
-title: "Further Material"
+title: "Resources"
 slug: "/material"
 ---
 
@@ -22,9 +22,9 @@ Some courses that are relevant to the topic:
 - [When Satisfiability Solving Meets Symbolic Computation](https://cacm.acm.org/research/when-satisfiability-solving-meets-symbolic-computation/), by Curtis Bright, Ilias Kotsireas, and Vijay Ganesh. CACM 2022.
 - [The Science of Brute Force](https://cacm.acm.org/research/the-science-of-brute-force/), by Marijn Heule and Oliver Kullmann. CACM 2017.
 
-## Others
+## Books and References
 
- A book with plenty of examples, both for SAT and SMT solving, is available at [https://smt.st/](https://smt.st/), thanks to Dennis Yurichev.
+A book with plenty of examples, both for SAT and SMT solving, is available at [smt.st](https://smt.st/), thanks to Dennis Yurichev.
 
 ## Workshops
 

@@ -1,10 +1,10 @@
 ---
-title: "How to Contribute"
+title: "Contribute"
 slug: "/contribute"
 ---
 
 
-## How to Contribute in General
+## Ways to Help
 
 The main ways to contribute are:
 

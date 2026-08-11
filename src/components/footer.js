@@ -1,33 +1,18 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import { Box, Typography } from "@mui/material";
-import { blueGrey, amber, green, lightBlue } from "@mui/material/colors";
 
-const Footer = () => {
-    return (
-        // <footer style={{position: 'sticky'}}> 
-        //     <AppBar color="primary">
-        //         <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', flexDirection: 'row'}}>
-        //             This page is a fork of~ <a href="https://algorithms-with-predictions.github.io/" style={{color: '#40A840'}}> algorithms-with-predictions.github.io</a>.
-        //         </div>
-        //     </AppBar>
-        // </footer>
-        <Box
-            component="footer"
-            sx={{
-                bgcolor: 'primary.main',
-                color: 'white',
-                py: 3,
-                mt: 'auto',
-                flexShrink: 0
-            }}>
-            <Typography gutterBottom align="center">
-            This page is a fork of <a href="https://algorithms-with-predictions.github.io/" style={{color: amber[600]}}> algorithms-with-predictions.github.io</a>, thanks to the authors!
-            </Typography>
-            
-        </Box>
-    );
-};
-
+const Footer = () => (
+  <footer className="site-footer">
+    <div className="site-shell footer-inner">
+      <p>SAT for Mathematics is a community-maintained research index.</p>
+      <p>
+        Site structure adapted, with thanks, from{" "}
+        <a href="https://algorithms-with-predictions.github.io/">
+          Algorithms with Predictions
+        </a>
+        .
+      </p>
+    </div>
+  </footer>
+);
 
 export default Footer;

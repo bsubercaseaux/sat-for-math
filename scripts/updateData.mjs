@@ -26,9 +26,7 @@ async function updateFromArxiv(paper) {
     let title = hit.title;
     if (fastls.get(title, paper.title) < 5) {
       if (!("authors" in paper)) {
-        paper.authors = hit.author
-          .map((a) => a.name.split(" ").at(-1))
-          .join(", ");
+        paper.authors = hit.author.map((author) => author.name).join(", ");
         console.log(
           "Setting authors of " + paper.title + " to " + paper.authors
         );
@@ -36,7 +34,8 @@ async function updateFromArxiv(paper) {
 
       let date = new Date(hit.published);
       let year = date.getFullYear();
-      let month = date.getMonth();
+      // Publication data uses calendar months (January = 1, December = 12).
+      let month = date.getMonth() + 1;
       let day = date.getDate();
       let pdfurl = hit.id
         //.replace("abs", "pdf")
@@ -89,7 +88,12 @@ async function updateFromDBLP(paper) {
     if (fastls.get(title, paper.title) < 5) {
       if (!("authors" in paper)) {
         paper.authors = hit.info.authors.author
-          .map((a) => a.split(" ").at(-1))
+          .map((author) =>
+            typeof author === "string"
+              ? author
+              : author["#text"] || author.text || author.name || ""
+          )
+          .filter(Boolean)
           .join(", ");
         console.log(
           "Setting authors of " + paper.title + " to " + paper.authors
@@ -149,17 +153,16 @@ async function updateFromDBLP(paper) {
 //   return updated;
 // }
 
-
 function shuffle_array(array) {
   for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
 async function update_sync() {
   let updated = [];
-  shuffle_array(papers)
+  shuffle_array(papers);
   for (let i = 0; i < papers.length; i++) {
     let file = papers[i];
     let paper = yaml.load(
@@ -186,7 +189,7 @@ async function update_sync() {
       );
     }
 
-    await new Promise(resolve => setTimeout(resolve, 10000))
+    await new Promise((resolve) => setTimeout(resolve, 10000));
     updated.push([file, paper]);
   }
 
