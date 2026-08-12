@@ -15,6 +15,48 @@ import {
 } from "@mui/material";
 import * as React from "react";
 import PropTypes from "prop-types";
+import katex from "katex";
+
+function renderInlineMath(text) {
+  const fragments = [];
+  const mathPattern = /\$([^$\n]+)\$/g;
+  let cursor = 0;
+  let match;
+
+  while ((match = mathPattern.exec(text)) !== null) {
+    if (match.index > cursor) {
+      fragments.push(text.slice(cursor, match.index));
+    }
+
+    try {
+      fragments.push(
+        <span
+          className="paper-catalog__inline-math"
+          dangerouslySetInnerHTML={{
+            __html: katex.renderToString(match[1], {
+              displayMode: false,
+              output: "htmlAndMathml",
+              strict: "ignore",
+              throwOnError: true,
+              trust: false,
+            }),
+          }}
+          key={`math-${match.index}`}
+        />
+      );
+    } catch {
+      fragments.push(match[0]);
+    }
+
+    cursor = mathPattern.lastIndex;
+  }
+
+  if (cursor < text.length) {
+    fragments.push(text.slice(cursor));
+  }
+
+  return fragments.length > 0 ? fragments : text;
+}
 
 function minDateOfPaper(paper) {
   const publications = paper.publications || [];
@@ -498,22 +540,24 @@ const PaperList = ({ data }) => {
                     key={paperKey(paper)}
                   >
                     <article className="paper-catalog__paper">
-                      <Typography
-                        className={`paper-catalog__paper-title${
-                          isPriorWork
-                            ? " paper-catalog__paper-title--prior"
-                            : ""
-                        }`}
-                        component="h3"
-                      >
-                        {paper.title}
-                      </Typography>
-                      <Typography
-                        className="paper-catalog__paper-authors"
-                        component="p"
-                      >
-                        {paper.authors}
-                      </Typography>
+                      <div className="paper-catalog__paper-copy">
+                        <Typography
+                          className={`paper-catalog__paper-title${
+                            isPriorWork
+                              ? " paper-catalog__paper-title--prior"
+                              : ""
+                          }`}
+                          component="h3"
+                        >
+                          {renderInlineMath(paper.title)}
+                        </Typography>
+                        <Typography
+                          className="paper-catalog__paper-authors"
+                          component="p"
+                        >
+                          {paper.authors}
+                        </Typography>
+                      </div>
 
                       {(publications.length > 0 || labels.length > 0) && (
                         <div className="paper-catalog__paper-meta">

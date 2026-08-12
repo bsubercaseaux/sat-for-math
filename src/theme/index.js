@@ -10,8 +10,8 @@ const colors = {
   rule: "#d6cbbd",
 };
 
-const editorialFont =
-  '"Newsreader Variable", Palatino, "Palatino Linotype", "Book Antiqua", "TeX Gyre Pagella", "URW Palladio L", P052, Georgia, serif';
+const interfaceFont =
+  '"IBM Plex Sans Variable", "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif';
 
 const theme = createTheme({
   palette: {
@@ -57,21 +57,21 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: editorialFont,
+    fontFamily: interfaceFont,
     h1: {
-      fontFamily: editorialFont,
+      fontFamily: interfaceFont,
       fontWeight: 400,
       letterSpacing: "-0.025em",
       lineHeight: 1.08,
     },
     h2: {
-      fontFamily: editorialFont,
+      fontFamily: interfaceFont,
       fontWeight: 400,
       letterSpacing: "-0.018em",
       lineHeight: 1.18,
     },
     h3: {
-      fontFamily: editorialFont,
+      fontFamily: interfaceFont,
       fontWeight: 400,
       lineHeight: 1.25,
     },

@@ -5,6 +5,9 @@ import Footer from "./footer";
 
 import "@fontsource-variable/newsreader/opsz.css";
 import "@fontsource-variable/newsreader/opsz-italic.css";
+import "@fontsource-variable/ibm-plex-sans/wght.css";
+import "@fontsource-variable/ibm-plex-sans/wght-italic.css";
+import "katex/dist/katex.min.css";
 import "./layout.css";
 
 const Layout = ({ children }) => (
