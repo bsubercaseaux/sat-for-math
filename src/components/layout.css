@@ -198,38 +198,38 @@ a:hover {
 }
 
 .site-mark__edge--ab {
-  top: 5px;
-  left: 4px;
-  width: 24px;
-  transform: rotate(-3deg);
+  top: 3.75px;
+  left: 8px;
+  width: 16px;
+  transform: rotate(0deg);
 }
 
 .site-mark__edge--ac {
-  top: 5px;
-  left: 4px;
-  width: 17px;
-  transform: rotate(66deg);
+  top: 3.75px;
+  left: 8px;
+  width: 16px;
+  transform: rotate(90deg);
 }
 
 .site-mark__edge--ad {
-  top: 5px;
-  left: 4px;
-  width: 28px;
-  transform: rotate(27deg);
+  top: 3.75px;
+  left: 8px;
+  width: 22.63px;
+  transform: rotate(45deg);
 }
 
 .site-mark__edge--bd {
-  top: 4px;
-  left: 28px;
-  width: 14px;
+  top: 3.75px;
+  left: 24px;
+  width: 16px;
   transform: rotate(90deg);
 }
 
 .site-mark__edge--cd {
-  top: 21px;
-  left: 11px;
-  width: 18px;
-  transform: rotate(-10deg);
+  top: 19.75px;
+  left: 8px;
+  width: 16px;
+  transform: rotate(0deg);
 }
 
 .site-mark__node {
@@ -242,26 +242,26 @@ a:hover {
 }
 
 .site-mark__node--a {
-  top: 1px;
-  left: 0;
+  top: 0.5px;
+  left: 4px;
   background: var(--coral-soft);
 }
 
 .site-mark__node--b {
-  top: 0;
-  right: 0;
+  top: 0.5px;
+  right: 4px;
   background: var(--sun);
 }
 
 .site-mark__node--c {
-  bottom: 0;
-  left: 7px;
+  bottom: 0.5px;
+  left: 4px;
   background: var(--navy);
 }
 
 .site-mark__node--d {
-  right: 0;
-  bottom: 3px;
+  right: 4px;
+  bottom: 0.5px;
   background: #604474;
 }
 
