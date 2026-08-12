@@ -153,6 +153,7 @@ a:hover {
   height: 38px;
   flex: 0 0 auto;
   align-items: center;
+  justify-content: center;
   gap: 0;
   padding: 3px 4px;
   border: 2px solid var(--header-coral);
@@ -164,6 +165,16 @@ a:hover {
   font-weight: 700;
   line-height: 1;
   transform: translateY(-4px);
+}
+
+.site-mark__contents {
+  position: relative;
+  top: -1.1px;
+  left: 1.2px;
+  display: inline-flex;
+  align-items: center;
+  transform: scale(1.2);
+  transform-origin: center;
 }
 
 .site-mark__symbol {
@@ -198,37 +209,37 @@ a:hover {
 }
 
 .site-mark__edge--ab {
-  top: 3.75px;
-  left: 8px;
-  width: 16px;
+  top: 5.95px;
+  left: 9px;
+  width: 14px;
   transform: rotate(0deg);
 }
 
 .site-mark__edge--ac {
-  top: 3.75px;
-  left: 8px;
-  width: 16px;
+  top: 5.95px;
+  left: 9px;
+  width: 14px;
   transform: rotate(90deg);
 }
 
 .site-mark__edge--ad {
-  top: 3.75px;
-  left: 8px;
-  width: 22.63px;
+  top: 5.95px;
+  left: 9px;
+  width: 19.8px;
   transform: rotate(45deg);
 }
 
 .site-mark__edge--bd {
-  top: 3.75px;
-  left: 24px;
-  width: 16px;
+  top: 5.95px;
+  left: 23px;
+  width: 14px;
   transform: rotate(90deg);
 }
 
 .site-mark__edge--cd {
-  top: 19.75px;
-  left: 8px;
-  width: 16px;
+  top: 19.95px;
+  left: 9px;
+  width: 14px;
   transform: rotate(0deg);
 }
 
@@ -242,26 +253,26 @@ a:hover {
 }
 
 .site-mark__node--a {
-  top: 0.5px;
-  left: 4px;
+  top: 2.7px;
+  left: 5px;
   background: var(--coral-soft);
 }
 
 .site-mark__node--b {
-  top: 0.5px;
-  right: 4px;
+  top: 2.7px;
+  right: 5px;
   background: var(--sun);
 }
 
 .site-mark__node--c {
-  bottom: 0.5px;
-  left: 4px;
+  bottom: 0.3px;
+  left: 5px;
   background: var(--navy);
 }
 
 .site-mark__node--d {
-  right: 4px;
-  bottom: 0.5px;
+  right: 5px;
+  bottom: 0.3px;
   background: #604474;
 }
 

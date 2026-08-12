@@ -24,17 +24,19 @@ const Header = () => {
           aria-label="SAT for Mathematics, home"
         >
           <span className="site-mark" aria-hidden="true">
-            <span className="site-mark__symbol">∃</span>
-            <span className="site-mark__graph">
-              <span className="site-mark__edge site-mark__edge--ab" />
-              <span className="site-mark__edge site-mark__edge--ac" />
-              <span className="site-mark__edge site-mark__edge--ad" />
-              <span className="site-mark__edge site-mark__edge--bd" />
-              <span className="site-mark__edge site-mark__edge--cd" />
-              <span className="site-mark__node site-mark__node--a" />
-              <span className="site-mark__node site-mark__node--b" />
-              <span className="site-mark__node site-mark__node--c" />
-              <span className="site-mark__node site-mark__node--d" />
+            <span className="site-mark__contents">
+              <span className="site-mark__symbol">∃</span>
+              <span className="site-mark__graph">
+                <span className="site-mark__edge site-mark__edge--ab" />
+                <span className="site-mark__edge site-mark__edge--ac" />
+                <span className="site-mark__edge site-mark__edge--ad" />
+                <span className="site-mark__edge site-mark__edge--bd" />
+                <span className="site-mark__edge site-mark__edge--cd" />
+                <span className="site-mark__node site-mark__node--a" />
+                <span className="site-mark__node site-mark__node--b" />
+                <span className="site-mark__node site-mark__node--c" />
+                <span className="site-mark__node site-mark__node--d" />
+              </span>
             </span>
           </span>
           <span className="site-wordmark__text">SAT for Mathematics</span>
